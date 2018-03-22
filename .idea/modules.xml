@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/serviceClient/serviceClient.iml" filepath="$PROJECT_DIR$/serviceClient/serviceClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servicePrinter/servicePrinter.iml" filepath="$PROJECT_DIR$/servicePrinter/servicePrinter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slingProject.iml" filepath="$PROJECT_DIR$/slingProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testBundle/testBundle.iml" filepath="$PROJECT_DIR$/testBundle/testBundle.iml" />
+    </modules>
+  </component>
+</project>

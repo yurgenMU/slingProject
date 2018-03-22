@@ -1,0 +1,1603 @@
+Apache Maven 3.5.2 (138edd61fd100ec658bfa2d307c43b76940a5d7d; 2017-10-18T10:58:13+03:00)
+Maven home: C:\Program Files\apache-maven-3.5.2\bin\..
+Java version: 1.8.0_161, vendor: Oracle Corporation
+Java home: C:\Program Files\Java\jdk1.8.0_161\jre
+Default locale: en_US, platform encoding: Cp1252
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.inject.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.util.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: color
+[DEBUG] Message styles: debug info warning error success failure strong mojo project
+[DEBUG] Reading global settings from C:\Program Files\apache-maven-3.5.2\bin\..\conf\settings.xml
+[DEBUG] Reading user settings from C:\Users\mea.SOFTWERKE\.m2\settings.xml
+[DEBUG] Reading global toolchains from C:\Program Files\apache-maven-3.5.2\bin\..\conf\toolchains.xml
+[DEBUG] Reading user toolchains from C:\Users\mea.SOFTWERKE\.m2\toolchains.xml
+[DEBUG] Using local repository at C:\Users\mea.SOFTWERKE\.m2\repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for C:\Users\mea.SOFTWERKE\.m2\repository
+[INFO] Scanning for projects...
+[DEBUG] Could not find metadata org.apache.felix:maven-bundle-plugin/maven-metadata.xml in local (C:\Users\mea.SOFTWERKE\.m2\repository)
+[DEBUG] Failure to find org.apache.felix:maven-bundle-plugin/maven-metadata.xml in http://repo.adobe.com/nexus/content/groups/public was cached in the local repository, resolution will not be reattempted until the update interval of adobe-public-releases has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.apache.felix:maven-bundle-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin version for org.apache.felix:maven-bundle-plugin to 3.5.0 from repository central (https://repo.maven.apache.org/maven2, default, releases)
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=6616362, ConflictMarker.markTime=1810612, ConflictMarker.nodeCount=206, ConflictIdSorter.graphTime=6488533, ConflictIdSorter.topsortTime=2019618, ConflictIdSorter.conflictIdCount=64, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=36471168, ConflictResolver.conflictItemCount=133, DefaultDependencyCollector.collectTime=1228214105, DefaultDependencyCollector.transformTime=58463970}
+[DEBUG] org.apache.felix:maven-bundle-plugin:jar:3.5.0:
+[DEBUG]    org.osgi:org.osgi.core:jar:4.3.1:compile
+[DEBUG]    biz.aQute.bnd:biz.aQute.bndlib:jar:3.5.0:compile
+[DEBUG]    org.apache.felix:org.apache.felix.bundlerepository:jar:1.6.6:compile
+[DEBUG]       org.easymock:easymock:jar:3.4:compile
+[DEBUG]          org.objenesis:objenesis:jar:2.2:compile
+[DEBUG]    org.apache.felix:org.apache.felix.utils:jar:1.6.0:compile
+[DEBUG]       org.osgi:org.osgi.compendium:jar:4.2.0:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.2.0:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.2.0:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.2.0:compile
+[DEBUG]       org.slf4j:slf4j-jdk14:jar:1.5.6:runtime
+[DEBUG]          org.slf4j:slf4j-api:jar:1.5.6:runtime
+[DEBUG]       org.slf4j:jcl-over-slf4j:jar:1.5.6:runtime
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.2.0:compile
+[DEBUG]          org.apache.maven.doxia:doxia-logging-api:jar:1.1:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.2.0:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.2.0:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:2.2.0:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:4.12:compile
+[DEBUG]             org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.2.0:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.2.0:compile
+[DEBUG]       org.apache.maven:maven-project:jar:2.2.0:compile
+[DEBUG]          org.apache.maven:maven-plugin-registry:jar:2.2.0:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.2:compile
+[DEBUG]       org.apache.maven:maven-plugin-api:jar:2.2.0:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.2.0:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.2.0:compile
+[DEBUG]          backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.2.0:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven:maven-archiver:jar:2.6:compile
+[DEBUG]       org.apache.maven.shared:maven-shared-utils:jar:0.7:compile
+[DEBUG]          com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-archiver:jar:2.8.1:compile
+[DEBUG]          org.codehaus.plexus:plexus-io:jar:2.3.2:compile
+[DEBUG]          org.apache.commons:commons-compress:jar:1.9:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.21:compile
+[DEBUG]    org.apache.maven.shared:maven-dependency-tree:jar:2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]       org.eclipse.aether:aether-util:jar:0.9.0.M2:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.10:compile
+[DEBUG]    org.sonatype.plexus:plexus-build-api:jar:0.0.7:compile
+[DEBUG]    org.apache.maven.doxia:doxia-sink-api:jar:1.0:compile
+[DEBUG]    org.apache.maven.doxia:doxia-site-renderer:jar:1.0:compile
+[DEBUG]       org.apache.maven.doxia:doxia-core:jar:1.0:compile
+[DEBUG]       org.codehaus.plexus:plexus-i18n:jar:1.0-beta-7:compile
+[DEBUG]       org.codehaus.plexus:plexus-velocity:jar:1.1.7:compile
+[DEBUG]       org.apache.velocity:velocity:jar:1.5:compile
+[DEBUG]          commons-lang:commons-lang:jar:2.1:compile
+[DEBUG]          oro:oro:jar:2.0.8:compile
+[DEBUG]       org.apache.maven.doxia:doxia-decoration-model:jar:1.0:compile
+[DEBUG]       commons-collections:commons-collections:jar:3.2:compile
+[DEBUG]       org.apache.maven.doxia:doxia-module-apt:jar:1.0:compile
+[DEBUG]       org.apache.maven.doxia:doxia-module-fml:jar:1.0:compile
+[DEBUG]       org.apache.maven.doxia:doxia-module-xdoc:jar:1.0:compile
+[DEBUG]       org.apache.maven.doxia:doxia-module-xhtml:jar:1.0:compile
+[DEBUG]    org.jdom:jdom:jar:1.1:compile
+[DEBUG] Created new class realm extension>org.apache.felix:maven-bundle-plugin:3.5.0
+[DEBUG] Importing foreign packages into class realm extension>org.apache.felix:maven-bundle-plugin:3.5.0
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm extension>org.apache.felix:maven-bundle-plugin:3.5.0
+[DEBUG]   Included: org.apache.felix:maven-bundle-plugin:jar:3.5.0
+[DEBUG]   Included: org.osgi:org.osgi.core:jar:4.3.1
+[DEBUG]   Included: biz.aQute.bnd:biz.aQute.bndlib:jar:3.5.0
+[DEBUG]   Included: org.apache.felix:org.apache.felix.bundlerepository:jar:1.6.6
+[DEBUG]   Included: org.easymock:easymock:jar:3.4
+[DEBUG]   Included: org.objenesis:objenesis:jar:2.2
+[DEBUG]   Included: org.apache.felix:org.apache.felix.utils:jar:1.6.0
+[DEBUG]   Included: org.osgi:org.osgi.compendium:jar:4.2.0
+[DEBUG]   Included: org.slf4j:slf4j-jdk14:jar:1.5.6
+[DEBUG]   Included: org.slf4j:jcl-over-slf4j:jar:1.5.6
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.2.0
+[DEBUG]   Included: org.apache.maven.doxia:doxia-logging-api:jar:1.1
+[DEBUG]   Included: junit:junit:jar:4.12
+[DEBUG]   Included: org.hamcrest:hamcrest-core:jar:1.3
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: backport-util-concurrent:backport-util-concurrent:jar:3.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.apache.maven:maven-archiver:jar:2.6
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:0.7
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:2.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-io:jar:2.3.2
+[DEBUG]   Included: org.apache.commons:commons-compress:jar:1.9
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.21
+[DEBUG]   Included: org.apache.maven.shared:maven-dependency-tree:jar:2.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.eclipse.aether:aether-util:jar:0.9.0.M2
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.10
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.7
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0
+[DEBUG]   Included: org.apache.maven.doxia:doxia-site-renderer:jar:1.0
+[DEBUG]   Included: org.apache.maven.doxia:doxia-core:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-i18n:jar:1.0-beta-7
+[DEBUG]   Included: org.codehaus.plexus:plexus-velocity:jar:1.1.7
+[DEBUG]   Included: org.apache.velocity:velocity:jar:1.5
+[DEBUG]   Included: commons-lang:commons-lang:jar:2.1
+[DEBUG]   Included: oro:oro:jar:2.0.8
+[DEBUG]   Included: org.apache.maven.doxia:doxia-decoration-model:jar:1.0
+[DEBUG]   Included: commons-collections:commons-collections:jar:3.2
+[DEBUG]   Included: org.apache.maven.doxia:doxia-module-apt:jar:1.0
+[DEBUG]   Included: org.apache.maven.doxia:doxia-module-fml:jar:1.0
+[DEBUG]   Included: org.apache.maven.doxia:doxia-module-xdoc:jar:1.0
+[DEBUG]   Included: org.apache.maven.doxia:doxia-module-xhtml:jar:1.0
+[DEBUG]   Included: org.jdom:jdom:jar:1.1
+[DEBUG] Extension realms for project ru.macsyom:serviceClient:bundle:1.0-SNAPSHOT: [ClassRealm[extension>org.apache.felix:maven-bundle-plugin:3.5.0, parent: sun.misc.Launcher$AppClassLoader@33909752]]
+[DEBUG] Created new class realm project>ru.macsyom:serviceClient:1.0-SNAPSHOT
+[DEBUG] Populating class realm project>ru.macsyom:serviceClient:1.0-SNAPSHOT
+[DEBUG] Looking up lifecycle mappings for packaging bundle from ClassRealm[project>ru.macsyom:serviceClient:1.0-SNAPSHOT, parent: ClassRealm[maven.api, parent: null]]
+[DEBUG] Could not find metadata org.apache.felix:maven-bundle-plugin/maven-metadata.xml in local (C:\Users\mea.SOFTWERKE\.m2\repository)
+[DEBUG] Failure to find org.apache.felix:maven-bundle-plugin/maven-metadata.xml in http://repo.adobe.com/nexus/content/groups/public was cached in the local repository, resolution will not be reattempted until the update interval of adobe-public-releases has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.apache.felix:maven-bundle-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin version for org.apache.felix:maven-bundle-plugin to 3.5.0 from repository central (https://repo.maven.apache.org/maven2, default, releases)
+[DEBUG] Extension realms for project ru.macsyom:slingProject:pom:1.0-SNAPSHOT: [ClassRealm[extension>org.apache.felix:maven-bundle-plugin:3.5.0, parent: sun.misc.Launcher$AppClassLoader@33909752]]
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[project>ru.macsyom:serviceClient:1.0-SNAPSHOT, parent: ClassRealm[maven.api, parent: null]]
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for ru.macsyom:serviceClient:bundle:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.felix:maven-scr-plugin is missing. @ ru.macsyom:serviceClient:[unknown-version], C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\pom.xml, line 27, column 21
+[WARNING] 'build.plugins.plugin.version' for org.apache.felix:maven-bundle-plugin is missing. @ ru.macsyom:serviceClient:[unknown-version], C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\pom.xml, line 39, column 21
+[WARNING] 'build.plugins.plugin.version' for org.apache.sling:maven-sling-plugin is missing. @ ru.macsyom:slingProject:1.0-SNAPSHOT, C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\pom.xml, line 100, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: ru.macsyom:serviceClient:bundle:1.0-SNAPSHOT
+[DEBUG] Tasks:   [clean, install]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building serviceClient 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[DEBUG] Could not find metadata org.apache.felix:maven-scr-plugin/maven-metadata.xml in local (C:\Users\mea.SOFTWERKE\.m2\repository)
+[DEBUG] Skipped remote request for org.apache.felix:maven-scr-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Skipped remote request for org.apache.felix:maven-scr-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin version for org.apache.felix:maven-scr-plugin to 1.26.0 from repository central (https://repo.maven.apache.org/maven2, default, releases)
+[DEBUG] Could not find metadata org.apache.sling:maven-sling-plugin/maven-metadata.xml in local (C:\Users\mea.SOFTWERKE\.m2\repository)
+[DEBUG] Failure to find org.apache.sling:maven-sling-plugin/maven-metadata.xml in http://repo.adobe.com/nexus/content/groups/public was cached in the local repository, resolution will not be reattempted until the update interval of adobe-public-releases has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.apache.sling:maven-sling-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin version for org.apache.sling:maven-sling-plugin to 2.3.4 from repository central (https://repo.maven.apache.org/maven2, default, releases)
+[DEBUG] Could not find metadata org.apache.maven.plugins:maven-resources-plugin/maven-metadata.xml in local (C:\Users\mea.SOFTWERKE\.m2\repository)
+[DEBUG] Failure to find org.apache.maven.plugins:maven-resources-plugin/maven-metadata.xml in http://repo.adobe.com/nexus/content/groups/public was cached in the local repository, resolution will not be reattempted until the update interval of adobe-public-releases has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.apache.maven.plugins:maven-resources-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin version for org.apache.maven.plugins:maven-resources-plugin to 3.0.2 from repository central (https://repo.maven.apache.org/maven2, default, releases)
+[DEBUG] Could not find metadata org.apache.maven.plugins:maven-surefire-plugin/maven-metadata.xml in local (C:\Users\mea.SOFTWERKE\.m2\repository)
+[DEBUG] Failure to find org.apache.maven.plugins:maven-surefire-plugin/maven-metadata.xml in http://repo.adobe.com/nexus/content/groups/public was cached in the local repository, resolution will not be reattempted until the update interval of adobe-public-releases has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.apache.maven.plugins:maven-surefire-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin version for org.apache.maven.plugins:maven-surefire-plugin to 2.21.0 from repository central (https://repo.maven.apache.org/maven2, default, releases)
+[DEBUG] Could not find metadata org.apache.maven.plugins:maven-install-plugin/maven-metadata.xml in local (C:\Users\mea.SOFTWERKE\.m2\repository)
+[DEBUG] Failure to find org.apache.maven.plugins:maven-install-plugin/maven-metadata.xml in http://repo.adobe.com/nexus/content/groups/public was cached in the local repository, resolution will not be reattempted until the update interval of adobe-public-releases has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.apache.maven.plugins:maven-install-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin version for org.apache.maven.plugins:maven-install-plugin to 2.5.2 from repository central (https://repo.maven.apache.org/maven2, default, releases)
+[DEBUG] Could not find metadata org.apache.maven.plugins:maven-deploy-plugin/maven-metadata.xml in local (C:\Users\mea.SOFTWERKE\.m2\repository)
+[DEBUG] Failure to find org.apache.maven.plugins:maven-deploy-plugin/maven-metadata.xml in http://repo.adobe.com/nexus/content/groups/public was cached in the local repository, resolution will not be reattempted until the update interval of adobe-public-releases has elapsed or updates are forced
+[DEBUG] Skipped remote request for org.apache.maven.plugins:maven-deploy-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin version for org.apache.maven.plugins:maven-deploy-plugin to 2.8.2 from repository central (https://repo.maven.apache.org/maven2, default, releases)
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       ru.macsyom:serviceClient:1.0-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile, test]
+[DEBUG] Repositories (dependencies): [adobe-public-releases (http://repo.adobe.com/nexus/content/groups/public, default, releases), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [adobe-public-releases (http://repo.adobe.com/nexus/content/groups/public, default, releases), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-clean-plugin:2.5:clean (default-clean)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <followSymLinks default-value="false">${clean.followSymLinks}</followSymLinks>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <reportDirectory default-value="${project.reporting.outputDirectory}"/>
+  <retryOnError default-value="true">${maven.clean.retryOnError}</retryOnError>
+  <skip default-value="false">${clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${clean.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:3.0.2:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <addDefaultExcludes default-value="true"/>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}"/>
+  <escapeWindowsPaths default-value="true"/>
+  <fileNameFiltering default-value="false"/>
+  <includeEmptyDirs default-value="false"/>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false"/>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <skip default-value="false">${maven.resources.skip}</skip>
+  <supportMultiLineFiltering default-value="false"/>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:2.0.2:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir>${basedir}</basedir>
+  <buildDirectory>${project.build.directory}</buildDirectory>
+  <classpathElements>${project.compileClasspathElements}</classpathElements>
+  <compileSourceRoots>${project.compileSourceRoots}</compileSourceRoots>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <encoding>UTF-8</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <fork default-value="false"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory>${project.build.outputDirectory}</outputDirectory>
+  <outputFileName>${project.build.finalName}</outputFileName>
+  <projectArtifact>${project.artifact}</projectArtifact>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <source>1.8</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target>1.8</target>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.felix:maven-scr-plugin:1.26.0:scr (generate-scr-descriptor)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <generateAccessors default-value="true"/>
+  <outputDirectory>${project.build.outputDirectory}</outputDirectory>
+  <project>${project}</project>
+  <scanClasses default-value="false"/>
+  <skipVolatileCheck default-value="false"/>
+  <strictMode default-value="false"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:3.0.2:testResources (default-testResources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <addDefaultExcludes default-value="true"/>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}"/>
+  <escapeWindowsPaths default-value="true"/>
+  <fileNameFiltering default-value="false"/>
+  <includeEmptyDirs default-value="false"/>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <overwrite default-value="false"/>
+  <project default-value="${project}"/>
+  <resources default-value="${project.testResources}"/>
+  <session default-value="${session}"/>
+  <skip default-value="false">${maven.test.skip}</skip>
+  <supportMultiLineFiltering default-value="false"/>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:2.0.2:testCompile (default-testCompile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir>${basedir}</basedir>
+  <buildDirectory>${project.build.directory}</buildDirectory>
+  <classpathElements>${project.testClasspathElements}</classpathElements>
+  <compileSourceRoots>${project.testCompileSourceRoots}</compileSourceRoots>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <encoding>UTF-8</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <fork default-value="false"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory>${project.build.testOutputDirectory}</outputDirectory>
+  <outputFileName>${project.build.finalName}</outputFileName>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skip>${maven.test.skip}</skip>
+  <source>1.8</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target>1.8</target>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-surefire-plugin:2.21.0:test (default-test)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <additionalClasspathElements>${maven.test.additionalClasspath}</additionalClasspathElements>
+  <argLine>${argLine}</argLine>
+  <basedir default-value="${basedir}"/>
+  <childDelegation default-value="false">${childDelegation}</childDelegation>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <classpathDependencyExcludes>${maven.test.dependency.excludes}</classpathDependencyExcludes>
+  <debugForkedProcess>${maven.surefire.debug}</debugForkedProcess>
+  <dependenciesToScan>${dependenciesToScan}</dependenciesToScan>
+  <disableXmlReport default-value="false">${disableXmlReport}</disableXmlReport>
+  <enableAssertions default-value="true">${enableAssertions}</enableAssertions>
+  <excludedGroups>${excludedGroups}</excludedGroups>
+  <excludesFile>${surefire.excludesFile}</excludesFile>
+  <failIfNoSpecifiedTests>${surefire.failIfNoSpecifiedTests}</failIfNoSpecifiedTests>
+  <failIfNoTests>${failIfNoTests}</failIfNoTests>
+  <forkCount default-value="1">${forkCount}</forkCount>
+  <forkMode default-value="once">${forkMode}</forkMode>
+  <forkedProcessExitTimeoutInSeconds default-value="30">${surefire.exitTimeout}</forkedProcessExitTimeoutInSeconds>
+  <forkedProcessTimeoutInSeconds>${surefire.timeout}</forkedProcessTimeoutInSeconds>
+  <groups>${groups}</groups>
+  <includesFile>${surefire.includesFile}</includesFile>
+  <junitArtifactName default-value="junit:junit">${junitArtifactName}</junitArtifactName>
+  <jvm>${jvm}</jvm>
+  <localRepository default-value="${localRepository}"/>
+  <objectFactory>${objectFactory}</objectFactory>
+  <parallel>${parallel}</parallel>
+  <parallelMavenExecution default-value="${session.parallel}"/>
+  <parallelOptimized default-value="true">${parallelOptimized}</parallelOptimized>
+  <parallelTestsTimeoutForcedInSeconds>${surefire.parallel.forcedTimeout}</parallelTestsTimeoutForcedInSeconds>
+  <parallelTestsTimeoutInSeconds>${surefire.parallel.timeout}</parallelTestsTimeoutInSeconds>
+  <perCoreThreadCount default-value="true">${perCoreThreadCount}</perCoreThreadCount>
+  <pluginArtifactMap>${plugin.artifactMap}</pluginArtifactMap>
+  <pluginDescriptor default-value="${plugin}"/>
+  <printSummary default-value="true">${surefire.printSummary}</printSummary>
+  <projectArtifactMap>${project.artifactMap}</projectArtifactMap>
+  <projectBuildDirectory default-value="${project.build.directory}"/>
+  <redirectTestOutputToFile default-value="false">${maven.test.redirectTestOutputToFile}</redirectTestOutputToFile>
+  <remoteRepositories default-value="${project.pluginArtifactRepositories}"/>
+  <reportFormat default-value="brief">${surefire.reportFormat}</reportFormat>
+  <reportNameSuffix default-value="">${surefire.reportNameSuffix}</reportNameSuffix>
+  <reportsDirectory default-value="${project.build.directory}/surefire-reports"/>
+  <rerunFailingTestsCount default-value="0">${surefire.rerunFailingTestsCount}</rerunFailingTestsCount>
+  <reuseForks default-value="true">${reuseForks}</reuseForks>
+  <runOrder default-value="filesystem">${surefire.runOrder}</runOrder>
+  <shutdown default-value="testset">${surefire.shutdown}</shutdown>
+  <skip default-value="false">${maven.test.skip}</skip>
+  <skipAfterFailureCount default-value="0">${surefire.skipAfterFailureCount}</skipAfterFailureCount>
+  <skipExec>${maven.test.skip.exec}</skipExec>
+  <skipTests default-value="false">${skipTests}</skipTests>
+  <suiteXmlFiles>${surefire.suiteXmlFiles}</suiteXmlFiles>
+  <tempDir default-value="surefire">${tempDir}</tempDir>
+  <test>${test}</test>
+  <testClassesDirectory default-value="${project.build.testOutputDirectory}"/>
+  <testFailureIgnore default-value="false">${maven.test.failure.ignore}</testFailureIgnore>
+  <testNGArtifactName default-value="org.testng:testng">${testNGArtifactName}</testNGArtifactName>
+  <testSourceDirectory default-value="${project.build.testSourceDirectory}"/>
+  <threadCount>${threadCount}</threadCount>
+  <threadCountClasses default-value="0">${threadCountClasses}</threadCountClasses>
+  <threadCountMethods default-value="0">${threadCountMethods}</threadCountMethods>
+  <threadCountSuites default-value="0">${threadCountSuites}</threadCountSuites>
+  <trimStackTrace default-value="true">${trimStackTrace}</trimStackTrace>
+  <useFile default-value="true">${surefire.useFile}</useFile>
+  <useManifestOnlyJar default-value="true">${surefire.useManifestOnlyJar}</useManifestOnlyJar>
+  <useSystemClassLoader default-value="true">${surefire.useSystemClassLoader}</useSystemClassLoader>
+  <useUnlimitedThreads default-value="false">${useUnlimitedThreads}</useUnlimitedThreads>
+  <workingDirectory>${basedir}</workingDirectory>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.felix:maven-bundle-plugin:3.5.0:bundle (default-bundle)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <dependencyReducedPomLocation default-value="${basedir}/dependency-reduced-pom.xml"/>
+  <dumpClasspath>${dumpClasspath}</dumpClasspath>
+  <dumpInstructions>${dumpInstructions}</dumpInstructions>
+  <excludeDependencies>${excludeDependencies}</excludeDependencies>
+  <finalName default-value="${project.build.finalName}"/>
+  <instructions>
+    <Bundle-SymbolicName>ru.macsyom.print.client</Bundle-SymbolicName>
+    <Bundle-Name>Client for printing</Bundle-Name>
+    <Import-Package>osgi.service.printer</Import-Package>
+    <Bundle-Activator>osgi.java.client.ClientActivator</Bundle-Activator>
+    <Export-Package>osgi.java.client</Export-Package>
+    <Sling-Initial-Content>SLING-INF/apps/sling-contact-list;overwrite:=true;uninstall:=true;path:=/apps/sling-contact-list,
+                            SLING-INF/content;overwrite:=true;uninstall:=true;path:=/content,
+                            SLING-INF/etc/sling-contact-list;overwrite:=true;uninstall:=true;path:=/etc/sling-contact-list</Sling-Initial-Content>
+  </instructions>
+  <localRepository default-value="${localRepository}"/>
+  <m_mavenSession default-value="${session}"/>
+  <manifestLocation default-value="${project.build.outputDirectory}/META-INF">${manifestLocation}</manifestLocation>
+  <niceManifest default-value="false">${niceManifest}</niceManifest>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <project default-value="${project}"/>
+  <remoteArtifactRepositories default-value="${project.remoteArtifactRepositories}"/>
+  <scrLocation default-value="${project.build.outputDirectory}"/>
+  <session default-value="${session}"/>
+  <unpackBundle>${unpackBundle}</unpackBundle>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-install-plugin:2.5.2:install (default-install)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <artifact default-value="${project.artifact}"/>
+  <attachedArtifacts default-value="${project.attachedArtifacts}"/>
+  <createChecksum default-value="false">${createChecksum}</createChecksum>
+  <installAtEnd default-value="false">${installAtEnd}</installAtEnd>
+  <localRepository>${localRepository}</localRepository>
+  <packaging default-value="${project.packaging}"/>
+  <pomFile default-value="${project.file}"/>
+  <project default-value="${project}"/>
+  <reactorProjects default-value="${reactorProjects}"/>
+  <skip default-value="false">${maven.install.skip}</skip>
+  <updateReleaseInfo default-value="false">${updateReleaseInfo}</updateReleaseInfo>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.felix:maven-bundle-plugin:3.5.0:install (default-install)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <attachedArtifacts default-value="${project.attachedArtifacts}"/>
+  <localRepository default-value="${localRepository}"/>
+  <obrRepository>${obrRepository}</obrRepository>
+  <project default-value="${project}"/>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=261258, ConflictMarker.markTime=43388, ConflictMarker.nodeCount=33, ConflictIdSorter.graphTime=138561, ConflictIdSorter.topsortTime=28925, ConflictIdSorter.conflictIdCount=20, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1129475, ConflictResolver.conflictItemCount=32, DefaultDependencyCollector.collectTime=179220275, DefaultDependencyCollector.transformTime=1619801}
+[DEBUG] ru.macsyom:serviceClient:bundle:1.0-SNAPSHOT
+[DEBUG]    org.apache.sling:org.apache.sling.api:jar:2.2.4:provided
+[DEBUG]    org.apache.felix:org.apache.felix.scr.annotations:jar:1.9.12:compile
+[DEBUG]    org.apache.felix:org.osgi.core:jar:1.4.0:compile
+[DEBUG]    javax.jcr:jcr:jar:2.0:compile
+[DEBUG]    ru.macsyom:servicePrinter:jar:1.0-SNAPSHOT:compile
+[DEBUG]    org.apache.jackrabbit:jackrabbit-core:jar:2.4.3:compile
+[DEBUG]       concurrent:concurrent:jar:1.3.4:compile
+[DEBUG]       commons-collections:commons-collections:jar:3.2.1:compile
+[DEBUG]       commons-io:commons-io:jar:1.4:compile
+[DEBUG]       commons-dbcp:commons-dbcp:jar:1.3:compile
+[DEBUG]          commons-pool:commons-pool:jar:1.5.4:compile
+[DEBUG]       org.apache.jackrabbit:jackrabbit-api:jar:2.4.3:compile
+[DEBUG]       org.apache.jackrabbit:jackrabbit-spi-commons:jar:2.4.3:compile
+[DEBUG]       org.apache.jackrabbit:jackrabbit-spi:jar:2.4.3:compile
+[DEBUG]       org.apache.tika:tika-core:jar:1.0:compile
+[DEBUG]       org.slf4j:slf4j-api:jar:1.6.4:compile
+[DEBUG]       org.apache.lucene:lucene-core:jar:3.0.3:compile
+[DEBUG]       org.apache.derby:derby:jar:10.5.3.0_1:compile
+[DEBUG]       org.slf4j:jcl-over-slf4j:jar:1.6.4:compile
+[DEBUG]    org.apache.jackrabbit:jackrabbit-jcr-commons:jar:2.4.3:compile
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ serviceClient ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=31258, ConflictMarker.markTime=23793, ConflictMarker.nodeCount=3, ConflictIdSorter.graphTime=53185, ConflictIdSorter.topsortTime=15862, ConflictIdSorter.conflictIdCount=3, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=165153, ConflictResolver.conflictItemCount=3, DefaultDependencyCollector.collectTime=24896500, DefaultDependencyCollector.transformTime=314443}
+[DEBUG] org.apache.maven.plugins:maven-clean-plugin:jar:2.5:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG]   Imported:  < project>ru.macsyom:serviceClient:1.0-SNAPSHOT
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG]   Included: org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-clean-plugin:2.5:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-clean-plugin:2.5, parent: sun.misc.Launcher$AppClassLoader@33909752]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-clean-plugin:2.5:clean' with basic configurator -->
+[DEBUG]   (f) directory = C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target
+[DEBUG]   (f) excludeDefaultDirectories = false
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) followSymLinks = false
+[DEBUG]   (f) outputDirectory = C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\classes
+[DEBUG]   (f) reportDirectory = C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\site
+[DEBUG]   (f) retryOnError = true
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) testOutputDirectory = C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\test-classes
+[DEBUG] -- end configuration --
+[INFO] Deleting C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target
+[INFO] Deleting file C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\printerClient.jar
+[INFO] Deleting file C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\classes\osgi\java\client\ClientActivator.class
+[INFO] Deleting file C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\classes\osgi\java\client\Client.class
+[INFO] Deleting directory C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\classes\osgi\java\client
+[INFO] Deleting directory C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\classes\osgi\java
+[INFO] Deleting directory C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\classes\osgi
+[INFO] Deleting file C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\classes\META-INF\MANIFEST.MF
+[INFO] Deleting directory C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\classes\META-INF
+[INFO] Deleting directory C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\classes
+[INFO] Deleting directory C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target
+[DEBUG] Skipping non-existing directory C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\classes
+[DEBUG] Skipping non-existing directory C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\test-classes
+[DEBUG] Skipping non-existing directory C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\site
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ serviceClient ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=139960, ConflictMarker.markTime=70447, ConflictMarker.nodeCount=68, ConflictIdSorter.graphTime=69047, ConflictIdSorter.topsortTime=40121, ConflictIdSorter.conflictIdCount=28, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1229313, ConflictResolver.conflictItemCount=67, DefaultDependencyCollector.collectTime=376232695, DefaultDependencyCollector.transformTime=1580612}
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:3.0.2:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:3.0:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]    org.apache.maven:maven-core:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-aether-provider:jar:3.0:runtime
+[DEBUG]       org.sonatype.aether:aether-impl:jar:1.7:compile
+[DEBUG]          org.sonatype.aether:aether-spi:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-api:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-util:jar:1.7:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.6:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven:maven-model:jar:3.0:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.24:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:3.1.1:compile
+[DEBUG]       org.apache.maven.shared:maven-shared-utils:jar:3.0.0:compile
+[DEBUG]          com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.7:compile
+[DEBUG]    commons-io:commons-io:jar:2.5:compile
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.24:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.0.2
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.0.2
+[DEBUG]   Imported:  < project>ru.macsyom:serviceClient:1.0-SNAPSHOT
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.0.2
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:3.0.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: org.sonatype.aether:aether-util:jar:1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.6
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.24
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:3.1.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.0.0
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.7
+[DEBUG]   Included: commons-io:commons-io:jar:2.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.24
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:3.0.2:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:3.0.2, parent: sun.misc.Launcher$AppClassLoader@33909752]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:3.0.2:resources' with basic configurator -->
+[DEBUG]   (f) addDefaultExcludes = true
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (f) fileNameFiltering = false
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: ru.macsyom:serviceClient:1.0-SNAPSHOT @ C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\src\main\resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@31ee96f4
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {java.vendor=Oracle Corporation, env.SYSTEMROOT=C:\Windows, env.USERDOMAIN_ROAMINGPROFILE=SOFTWERKE, sun.java.launcher=SUN_STANDARD, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, env.ONEDRIVE=C:\Users\mea.SOFTWERKE\OneDrive, env.PROMPT=$P$G, env.WDIR=C:\, os.name=Windows 10, sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\classes, env.COMPUTERNAME=NBMEA, env.ALLUSERSPROFILE=C:\ProgramData, sun.desktop=windows, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_161-b12, env.HOMEPATH=\Users\mea.SOFTWERKE, user.name=mea, maven.build.version=Apache Maven 3.5.2 (138edd61fd100ec658bfa2d307c43b76940a5d7d; 2017-10-18T10:58:13+03:00), env.PATH=C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;%JAVA_HOME%\bin;C:\Program Files\apache-maven-3.5.2\bin;C:\Program Files\curl-7.58.0-win64-mingw\bin;C:\Program Files\Git\cmd;C:\Users\mea.SOFTWERKE\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_161\bin;, user.language=en, env.JVMCONFIG=\.mvn\jvm.config, env.WINDIR=C:\Windows, sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_161\jre\bin, classworlds.conf=C:\Program Files\apache-maven-3.5.2\bin\..\bin\m2.conf, java.version=1.8.0_161, env.PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 61 Stepping 4, GenuineIntel, user.timezone=Europe/Moscow, project.baseUri=file:/C:/Users/mea.SOFTWERKE/IdeaProjects/slingProject/serviceClient/, maven.build.timestamp=2018-03-22T10:51:07Z, env.TEMP=C:\Users\MEA~1.SOF\AppData\Local\Temp, sun.arch.data.model=64, env.EXEC_DIR=C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient, java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_161\jre\lib\endorsed, sun.cpu.isalist=amd64, env.HOMEDRIVE=C:, sun.jnu.encoding=Cp1252, file.encoding.pkg=sun.io, env.SYSTEMDRIVE=C:, file.separator=\, java.specification.name=Java Platform API Specification, maven.conf=C:\Program Files\apache-maven-3.5.2\bin\../conf, env.JAVACMD=C:\Program Files\Java\jdk1.8.0_161\bin\java.exe, java.class.version=52.0, org.slf4j.simpleLogger.defaultLogLevel=debug, user.country=US, java.home=C:\Program Files\Java\jdk1.8.0_161\jre, env.APPDATA=C:\Users\mea.SOFTWERKE\AppData\Roaming, env.PUBLIC=C:\Users\Public, java.vm.info=mixed mode, env.OS=Windows_NT, os.version=10.0, env.=::=::\, path.separator=;, java.vm.version=25.161-b12, user.variant=, env.USERPROFILE=C:\Users\mea.SOFTWERKE, env.JAVA_HOME=C:\Program Files\Java\jdk1.8.0_161, java.awt.printerjob=sun.awt.windows.WPrinterJob, env.TMP=C:\Users\MEA~1.SOF\AppData\Local\Temp, env.PROGRAMFILES=C:\Program Files, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.windows.WToolkit, user.script=, user.home=C:\Users\mea.SOFTWERKE, env.COMMONPROGRAMFILES=C:\Program Files\Common Files, env.=EXITCODE=00000000, env.SESSIONNAME=Console, java.specification.vendor=Oracle Corporation, env.NUMBER_OF_PROCESSORS=4, library.jansi.path=C:\Program Files\apache-maven-3.5.2\bin\..\lib\jansi-native, java.library.path=C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;%JAVA_HOME%\bin;C:\Program Files\apache-maven-3.5.2\bin;C:\Program Files\curl-7.58.0-win64-mingw\bin;C:\Program Files\Git\cmd;C:\Users\mea.SOFTWERKE\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_161\bin;;., java.vendor.url=http://java.oracle.com/, env.CLASSWORLDS_LAUNCHER=org.codehaus.plexus.classworlds.launcher.Launcher, env.PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules, env.USERDNSDOMAIN=SOFTWERKE.LOCAL, env.COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files, env.MAVEN_CMD_LINE_ARGS=clean install -X, java.vm.vendor=Oracle Corporation, java.runtime.name=Java(TM) SE Runtime Environment, maven.home=C:\Program Files\apache-maven-3.5.2\bin\.., java.class.path=C:\Program Files\apache-maven-3.5.2\bin\..\boot\plexus-classworlds-2.5.2.jar, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher clean install -X, env.PROGRAMW6432=C:\Program Files, maven.version=3.5.2, env.PROGRAMFILES(X86)=C:\Program Files (x86), java.vm.specification.name=Java Virtual Machine Specification, env.LOGONSERVER=\\BACKSERVER, env.PROCESSOR_ARCHITECTURE=AMD64, java.vm.specification.version=1.8, env.COMMONPROGRAMW6432=C:\Program Files\Common Files, sun.os.patch.level=, sun.cpu.endian=little, env.PROCESSOR_REVISION=3d04, java.io.tmpdir=C:\Users\MEA~1.SOF\AppData\Local\Temp\, maven.multiModuleProjectDirectory=C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, env.COMSPEC=C:\Windows\system32\cmd.exe, env.PROGRAMDATA=C:\ProgramData, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, os.arch=amd64, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, user.dir=C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient, env.LOCALAPPDATA=C:\Users\mea.SOFTWERKE\AppData\Local, env.MAVEN_HOME=C:\Program Files\apache-maven-3.5.2\bin\.., line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, env.CLASSWORLDS_JAR="C:\Program Files\apache-maven-3.5.2\bin\..\boot\plexus-classworlds-2.5.2.jar", env.PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, env.ERROR_CODE=0, env.USERNAME=mea, file.encoding=Cp1252, sun.stderr.encoding=cp437, env.USERDOMAIN=SOFTWERKE, java.specification.version=1.8, env.=C:=C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient, env.MAVEN_PROJECTBASEDIR=C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient, env.PROCESSOR_LEVEL=6}
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] resource with targetPath null
+directory C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\src\main\resources
+excludes []
+includes []
+[DEBUG] ignoreDelta true
+[INFO] Copying 0 resource
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ serviceClient ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=160021, ConflictMarker.markTime=47586, ConflictMarker.nodeCount=22, ConflictIdSorter.graphTime=30791, ConflictIdSorter.topsortTime=31724, ConflictIdSorter.conflictIdCount=10, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=428743, ConflictResolver.conflictItemCount=17, DefaultDependencyCollector.collectTime=78938210, DefaultDependencyCollector.transformTime=723592}
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:2.0.2:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:1.0.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:1.5.3:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:1.5.3:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:1.5.3:runtime
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:2.0.2
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:2.0.2
+[DEBUG]   Imported:  < project>ru.macsyom:serviceClient:1.0-SNAPSHOT
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:2.0.2
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:2.0.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.0.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:1.5.3
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:1.5.3
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:1.5.3
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:2.0.2:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:2.0.2, parent: sun.misc.Launcher$AppClassLoader@33909752]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:2.0.2:compile' with basic configurator -->
+[DEBUG]   (f) basedir = C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient
+[DEBUG]   (f) buildDirectory = C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target
+[DEBUG]   (f) classpathElements = [C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\classes, C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\sling\org.apache.sling.api\2.2.4\org.apache.sling.api-2.2.4.jar, C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\felix\org.apache.felix.scr.annotations\1.9.12\org.apache.felix.scr.annotations-1.9.12.jar, C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\felix\org.osgi.core\1.4.0\org.osgi.core-1.4.0.jar, C:\Users\mea.SOFTWERKE\.m2\repository\javax\jcr\jcr\2.0\jcr-2.0.jar, C:\Users\mea.SOFTWERKE\.m2\repository\ru\macsyom\servicePrinter\1.0-SNAPSHOT\servicePrinter-1.0-SNAPSHOT.jar, C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\jackrabbit\jackrabbit-core\2.4.3\jackrabbit-core-2.4.3.jar, C:\Users\mea.SOFTWERKE\.m2\repository\concurrent\concurrent\1.3.4\concurrent-1.3.4.jar, C:\Users\mea.SOFTWERKE\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar, C:\Users\mea.SOFTWERKE\.m2\repository\commons-io\commons-io\1.4\commons-io-1.4.jar, C:\Users\mea.SOFTWERKE\.m2\repository\commons-dbcp\commons-dbcp\1.3\commons-dbcp-1.3.jar, C:\Users\mea.SOFTWERKE\.m2\repository\commons-pool\commons-pool\1.5.4\commons-pool-1.5.4.jar, C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\jackrabbit\jackrabbit-api\2.4.3\jackrabbit-api-2.4.3.jar, C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\jackrabbit\jackrabbit-spi-commons\2.4.3\jackrabbit-spi-commons-2.4.3.jar, C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\jackrabbit\jackrabbit-spi\2.4.3\jackrabbit-spi-2.4.3.jar, C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\tika\tika-core\1.0\tika-core-1.0.jar, C:\Users\mea.SOFTWERKE\.m2\repository\org\slf4j\slf4j-api\1.6.4\slf4j-api-1.6.4.jar, C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\lucene\lucene-core\3.0.3\lucene-core-3.0.3.jar, C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\derby\derby\10.5.3.0_1\derby-10.5.3.0_1.jar, C:\Users\mea.SOFTWERKE\.m2\repository\org\slf4j\jcl-over-slf4j\1.6.4\jcl-over-slf4j-1.6.4.jar, C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\jackrabbit\jackrabbit-jcr-commons\2.4.3\jackrabbit-jcr-commons-2.4.3.jar]
+[DEBUG]   (f) compileSourceRoots = [C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\src\main\java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\classes
+[DEBUG]   (f) outputFileName = printerClient
+[DEBUG]   (f) projectArtifact = ru.macsyom:serviceClient:bundle:1.0-SNAPSHOT
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) source = 1.8
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.8
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Source directories: [C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\src\main\java]
+[DEBUG] Classpath: [C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\classes
+ C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\sling\org.apache.sling.api\2.2.4\org.apache.sling.api-2.2.4.jar
+ C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\felix\org.apache.felix.scr.annotations\1.9.12\org.apache.felix.scr.annotations-1.9.12.jar
+ C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\felix\org.osgi.core\1.4.0\org.osgi.core-1.4.0.jar
+ C:\Users\mea.SOFTWERKE\.m2\repository\javax\jcr\jcr\2.0\jcr-2.0.jar
+ C:\Users\mea.SOFTWERKE\.m2\repository\ru\macsyom\servicePrinter\1.0-SNAPSHOT\servicePrinter-1.0-SNAPSHOT.jar
+ C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\jackrabbit\jackrabbit-core\2.4.3\jackrabbit-core-2.4.3.jar
+ C:\Users\mea.SOFTWERKE\.m2\repository\concurrent\concurrent\1.3.4\concurrent-1.3.4.jar
+ C:\Users\mea.SOFTWERKE\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar
+ C:\Users\mea.SOFTWERKE\.m2\repository\commons-io\commons-io\1.4\commons-io-1.4.jar
+ C:\Users\mea.SOFTWERKE\.m2\repository\commons-dbcp\commons-dbcp\1.3\commons-dbcp-1.3.jar
+ C:\Users\mea.SOFTWERKE\.m2\repository\commons-pool\commons-pool\1.5.4\commons-pool-1.5.4.jar
+ C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\jackrabbit\jackrabbit-api\2.4.3\jackrabbit-api-2.4.3.jar
+ C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\jackrabbit\jackrabbit-spi-commons\2.4.3\jackrabbit-spi-commons-2.4.3.jar
+ C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\jackrabbit\jackrabbit-spi\2.4.3\jackrabbit-spi-2.4.3.jar
+ C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\tika\tika-core\1.0\tika-core-1.0.jar
+ C:\Users\mea.SOFTWERKE\.m2\repository\org\slf4j\slf4j-api\1.6.4\slf4j-api-1.6.4.jar
+ C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\lucene\lucene-core\3.0.3\lucene-core-3.0.3.jar
+ C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\derby\derby\10.5.3.0_1\derby-10.5.3.0_1.jar
+ C:\Users\mea.SOFTWERKE\.m2\repository\org\slf4j\jcl-over-slf4j\1.6.4\jcl-over-slf4j-1.6.4.jar
+ C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\jackrabbit\jackrabbit-jcr-commons\2.4.3\jackrabbit-jcr-commons-2.4.3.jar]
+[DEBUG] Output directory: C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\classes
+[DEBUG] Classpath:
+[DEBUG]  C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\classes
+[DEBUG]  C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\sling\org.apache.sling.api\2.2.4\org.apache.sling.api-2.2.4.jar
+[DEBUG]  C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\felix\org.apache.felix.scr.annotations\1.9.12\org.apache.felix.scr.annotations-1.9.12.jar
+[DEBUG]  C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\felix\org.osgi.core\1.4.0\org.osgi.core-1.4.0.jar
+[DEBUG]  C:\Users\mea.SOFTWERKE\.m2\repository\javax\jcr\jcr\2.0\jcr-2.0.jar
+[DEBUG]  C:\Users\mea.SOFTWERKE\.m2\repository\ru\macsyom\servicePrinter\1.0-SNAPSHOT\servicePrinter-1.0-SNAPSHOT.jar
+[DEBUG]  C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\jackrabbit\jackrabbit-core\2.4.3\jackrabbit-core-2.4.3.jar
+[DEBUG]  C:\Users\mea.SOFTWERKE\.m2\repository\concurrent\concurrent\1.3.4\concurrent-1.3.4.jar
+[DEBUG]  C:\Users\mea.SOFTWERKE\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar
+[DEBUG]  C:\Users\mea.SOFTWERKE\.m2\repository\commons-io\commons-io\1.4\commons-io-1.4.jar
+[DEBUG]  C:\Users\mea.SOFTWERKE\.m2\repository\commons-dbcp\commons-dbcp\1.3\commons-dbcp-1.3.jar
+[DEBUG]  C:\Users\mea.SOFTWERKE\.m2\repository\commons-pool\commons-pool\1.5.4\commons-pool-1.5.4.jar
+[DEBUG]  C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\jackrabbit\jackrabbit-api\2.4.3\jackrabbit-api-2.4.3.jar
+[DEBUG]  C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\jackrabbit\jackrabbit-spi-commons\2.4.3\jackrabbit-spi-commons-2.4.3.jar
+[DEBUG]  C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\jackrabbit\jackrabbit-spi\2.4.3\jackrabbit-spi-2.4.3.jar
+[DEBUG]  C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\tika\tika-core\1.0\tika-core-1.0.jar
+[DEBUG]  C:\Users\mea.SOFTWERKE\.m2\repository\org\slf4j\slf4j-api\1.6.4\slf4j-api-1.6.4.jar
+[DEBUG]  C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\lucene\lucene-core\3.0.3\lucene-core-3.0.3.jar
+[DEBUG]  C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\derby\derby\10.5.3.0_1\derby-10.5.3.0_1.jar
+[DEBUG]  C:\Users\mea.SOFTWERKE\.m2\repository\org\slf4j\jcl-over-slf4j\1.6.4\jcl-over-slf4j-1.6.4.jar
+[DEBUG]  C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\jackrabbit\jackrabbit-jcr-commons\2.4.3\jackrabbit-jcr-commons-2.4.3.jar
+[DEBUG] Source roots:
+[DEBUG]  C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\src\main\java
+[INFO] Compiling 2 source files to C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\classes
+[INFO] 
+[INFO] --- maven-scr-plugin:1.26.0:scr (generate-scr-descriptor) @ serviceClient ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=35456, ConflictMarker.markTime=23794, ConflictMarker.nodeCount=38, ConflictIdSorter.graphTime=57850, ConflictIdSorter.topsortTime=24260, ConflictIdSorter.conflictIdCount=20, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=373226, ConflictResolver.conflictItemCount=34, DefaultDependencyCollector.collectTime=70575151, DefaultDependencyCollector.transformTime=534179}
+[DEBUG] org.apache.felix:maven-scr-plugin:jar:1.26.0:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.7:compile
+[DEBUG]    org.apache.maven:maven-archiver:jar:2.2:compile
+[DEBUG]       org.apache.maven:maven-project:jar:2.0:compile
+[DEBUG]          org.apache.maven:maven-profile:jar:2.0:compile
+[DEBUG]          org.apache.maven:maven-model:jar:2.0:compile
+[DEBUG]          org.apache.maven:maven-artifact-manager:jar:2.0:compile
+[DEBUG]             org.apache.maven:maven-repository-metadata:jar:2.0:compile
+[DEBUG]          org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-8:compile
+[DEBUG]             junit:junit:jar:4.12:compile
+[DEBUG]                org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]             classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]       org.codehaus.plexus:plexus-archiver:jar:1.0-alpha-7:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:2.0:compile
+[DEBUG]    org.apache.felix:org.apache.felix.scr.generator:jar:1.18.0:compile
+[DEBUG]       org.ow2.asm:asm-all:jar:5.1:compile
+[DEBUG]       org.osgi:org.osgi.core:jar:4.2.0:compile
+[DEBUG]       org.osgi:org.osgi.compendium:jar:4.2.0:compile
+[DEBUG]    org.sonatype.plexus:plexus-build-api:jar:0.0.7:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.5.8:compile
+[DEBUG] Created new class realm plugin>org.apache.felix:maven-scr-plugin:1.26.0
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.felix:maven-scr-plugin:1.26.0
+[DEBUG]   Imported:  < project>ru.macsyom:serviceClient:1.0-SNAPSHOT
+[DEBUG] Populating class realm plugin>org.apache.felix:maven-scr-plugin:1.26.0
+[DEBUG]   Included: org.apache.felix:maven-scr-plugin:jar:1.26.0
+[DEBUG]   Included: org.apache.maven:maven-archiver:jar:2.2
+[DEBUG]   Included: junit:junit:jar:4.12
+[DEBUG]   Included: org.hamcrest:hamcrest-core:jar:1.3
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:1.0-alpha-7
+[DEBUG]   Included: org.apache.felix:org.apache.felix.scr.generator:jar:1.18.0
+[DEBUG]   Included: org.ow2.asm:asm-all:jar:5.1
+[DEBUG]   Included: org.osgi:org.osgi.core:jar:4.2.0
+[DEBUG]   Included: org.osgi:org.osgi.compendium:jar:4.2.0
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.8
+[DEBUG] Configuring mojo org.apache.felix:maven-scr-plugin:1.26.0:scr from plugin realm ClassRealm[plugin>org.apache.felix:maven-scr-plugin:1.26.0, parent: sun.misc.Launcher$AppClassLoader@33909752]
+[DEBUG] Configuring mojo 'org.apache.felix:maven-scr-plugin:1.26.0:scr' with basic configurator -->
+[DEBUG]   (f) generateAccessors = true
+[DEBUG]   (f) outputDirectory = C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\classes
+[DEBUG]   (f) project = MavenProject: ru.macsyom:serviceClient:1.0-SNAPSHOT @ C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\pom.xml
+[DEBUG]   (f) scanClasses = false
+[DEBUG]   (f) skipVolatileCheck = false
+[DEBUG]   (f) strictMode = false
+[DEBUG] -- end configuration --
+[DEBUG] Checking artifact org.apache.sling:org.apache.sling.api:jar:2.2.4:provided
+[DEBUG] Resolving artifact org.apache.sling:org.apache.sling.api:jar:2.2.4:provided
+[DEBUG] Checking artifact org.apache.felix:org.apache.felix.scr.annotations:jar:1.9.12:compile
+[DEBUG] Resolving artifact org.apache.felix:org.apache.felix.scr.annotations:jar:1.9.12:compile
+[DEBUG] Checking artifact org.apache.felix:org.osgi.core:jar:1.4.0:compile
+[DEBUG] Resolving artifact org.apache.felix:org.osgi.core:jar:1.4.0:compile
+[DEBUG] Checking artifact javax.jcr:jcr:jar:2.0:compile
+[DEBUG] Resolving artifact javax.jcr:jcr:jar:2.0:compile
+[DEBUG] Checking artifact ru.macsyom:servicePrinter:jar:1.0-SNAPSHOT:compile
+[DEBUG] Resolving artifact ru.macsyom:servicePrinter:jar:1.0-SNAPSHOT:compile
+[DEBUG] Checking artifact org.apache.jackrabbit:jackrabbit-core:jar:2.4.3:compile
+[DEBUG] Resolving artifact org.apache.jackrabbit:jackrabbit-core:jar:2.4.3:compile
+[DEBUG] Checking artifact concurrent:concurrent:jar:1.3.4:compile
+[DEBUG] Resolving artifact concurrent:concurrent:jar:1.3.4:compile
+[DEBUG] Checking artifact commons-collections:commons-collections:jar:3.2.1:compile
+[DEBUG] Resolving artifact commons-collections:commons-collections:jar:3.2.1:compile
+[DEBUG] Checking artifact commons-io:commons-io:jar:1.4:compile
+[DEBUG] Resolving artifact commons-io:commons-io:jar:1.4:compile
+[DEBUG] Checking artifact commons-dbcp:commons-dbcp:jar:1.3:compile
+[DEBUG] Resolving artifact commons-dbcp:commons-dbcp:jar:1.3:compile
+[DEBUG] Checking artifact commons-pool:commons-pool:jar:1.5.4:compile
+[DEBUG] Resolving artifact commons-pool:commons-pool:jar:1.5.4:compile
+[DEBUG] Checking artifact org.apache.jackrabbit:jackrabbit-api:jar:2.4.3:compile
+[DEBUG] Resolving artifact org.apache.jackrabbit:jackrabbit-api:jar:2.4.3:compile
+[DEBUG] Checking artifact org.apache.jackrabbit:jackrabbit-spi-commons:jar:2.4.3:compile
+[DEBUG] Resolving artifact org.apache.jackrabbit:jackrabbit-spi-commons:jar:2.4.3:compile
+[DEBUG] Checking artifact org.apache.jackrabbit:jackrabbit-spi:jar:2.4.3:compile
+[DEBUG] Resolving artifact org.apache.jackrabbit:jackrabbit-spi:jar:2.4.3:compile
+[DEBUG] Checking artifact org.apache.tika:tika-core:jar:1.0:compile
+[DEBUG] Resolving artifact org.apache.tika:tika-core:jar:1.0:compile
+[DEBUG] Checking artifact org.slf4j:slf4j-api:jar:1.6.4:compile
+[DEBUG] Resolving artifact org.slf4j:slf4j-api:jar:1.6.4:compile
+[DEBUG] Checking artifact org.apache.lucene:lucene-core:jar:3.0.3:compile
+[DEBUG] Resolving artifact org.apache.lucene:lucene-core:jar:3.0.3:compile
+[DEBUG] Checking artifact org.apache.derby:derby:jar:10.5.3.0_1:compile
+[DEBUG] Resolving artifact org.apache.derby:derby:jar:10.5.3.0_1:compile
+[DEBUG] Checking artifact org.slf4j:jcl-over-slf4j:jar:1.6.4:compile
+[DEBUG] Resolving artifact org.slf4j:jcl-over-slf4j:jar:1.6.4:compile
+[DEBUG] Checking artifact org.apache.jackrabbit:jackrabbit-jcr-commons:jar:2.4.3:compile
+[DEBUG] Resolving artifact org.apache.jackrabbit:jackrabbit-jcr-commons:jar:2.4.3:compile
+[DEBUG] Scanning source tree C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\src\main\java
+[DEBUG] Scanning source tree C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\src\main\java
+[DEBUG] Deleting C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\classes\OSGI-INF\metatype\osgi.java.client.Client.xml 
+[DEBUG] Deleting C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\classes\OSGI-INF\metatype\osgi.java.client.Client.properties 
+[DEBUG] Deleting C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\classes\OSGI-INF\osgi.java.client.Client.xml
+[DEBUG] Deleting C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\classes\OSGI-INF\metatype\osgi.java.client.ClientActivator.xml 
+[DEBUG] Deleting C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\classes\OSGI-INF\metatype\osgi.java.client.ClientActivator.properties 
+[DEBUG] Deleting C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\classes\OSGI-INF\osgi.java.client.ClientActivator.xml
+[DEBUG] Starting SCR Descriptor Generator....
+[DEBUG] ..using output directory: C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\classes
+[DEBUG] ..strict mode: false
+[DEBUG] ..generating accessors: true
+[DEBUG] ..auto detecting spec version
+[DEBUG] ..using annotation processors: 
+[DEBUG]   - Apache Sling Annotation Processor - 500
+[DEBUG]   - Apache Felix SCR Annotation Processor - 1000
+[DEBUG] Scanning class osgi.java.client.Client
+[DEBUG] Processing osgi.java.client.Client
+[DEBUG] Scanning class osgi.java.client.ClientActivator
+[DEBUG] Processing osgi.java.client.ClientActivator
+[DEBUG] Using default spec version VERSION_1_0
+[DEBUG] Generating descriptor for spec version: VERSION_1_0
+[DEBUG] No Service Component Descriptors found in project.
+[DEBUG] Scanning source tree C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\src\main\java
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ serviceClient ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:3.0.2:testResources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:3.0.2, parent: sun.misc.Launcher$AppClassLoader@33909752]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:3.0.2:testResources' with basic configurator -->
+[DEBUG]   (f) addDefaultExcludes = true
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (f) fileNameFiltering = false
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\test-classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: ru.macsyom:serviceClient:1.0-SNAPSHOT @ C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\src\test\resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@31ee96f4
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {java.vendor=Oracle Corporation, env.SYSTEMROOT=C:\Windows, env.USERDOMAIN_ROAMINGPROFILE=SOFTWERKE, sun.java.launcher=SUN_STANDARD, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, env.ONEDRIVE=C:\Users\mea.SOFTWERKE\OneDrive, env.PROMPT=$P$G, env.WDIR=C:\, os.name=Windows 10, sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\classes, env.COMPUTERNAME=NBMEA, BNDExtension-Include-Resource={maven-resources}, env.ALLUSERSPROFILE=C:\ProgramData, sun.desktop=windows, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_161-b12, env.HOMEPATH=\Users\mea.SOFTWERKE, user.name=mea, maven.build.version=Apache Maven 3.5.2 (138edd61fd100ec658bfa2d307c43b76940a5d7d; 2017-10-18T10:58:13+03:00), env.PATH=C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;%JAVA_HOME%\bin;C:\Program Files\apache-maven-3.5.2\bin;C:\Program Files\curl-7.58.0-win64-mingw\bin;C:\Program Files\Git\cmd;C:\Users\mea.SOFTWERKE\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_161\bin;, user.language=en, env.JVMCONFIG=\.mvn\jvm.config, env.WINDIR=C:\Windows, sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_161\jre\bin, classworlds.conf=C:\Program Files\apache-maven-3.5.2\bin\..\bin\m2.conf, java.version=1.8.0_161, env.PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 61 Stepping 4, GenuineIntel, user.timezone=Europe/Moscow, project.baseUri=file:/C:/Users/mea.SOFTWERKE/IdeaProjects/slingProject/serviceClient/, maven.build.timestamp=2018-03-22T10:51:09Z, env.TEMP=C:\Users\MEA~1.SOF\AppData\Local\Temp, sun.arch.data.model=64, env.EXEC_DIR=C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient, java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_161\jre\lib\endorsed, sun.cpu.isalist=amd64, env.HOMEDRIVE=C:, sun.jnu.encoding=Cp1252, file.encoding.pkg=sun.io, env.SYSTEMDRIVE=C:, file.separator=\, java.specification.name=Java Platform API Specification, maven.conf=C:\Program Files\apache-maven-3.5.2\bin\../conf, env.JAVACMD=C:\Program Files\Java\jdk1.8.0_161\bin\java.exe, java.class.version=52.0, org.slf4j.simpleLogger.defaultLogLevel=debug, user.country=US, java.home=C:\Program Files\Java\jdk1.8.0_161\jre, env.APPDATA=C:\Users\mea.SOFTWERKE\AppData\Roaming, env.PUBLIC=C:\Users\Public, java.vm.info=mixed mode, env.OS=Windows_NT, os.version=10.0, env.=::=::\, path.separator=;, java.vm.version=25.161-b12, user.variant=, env.USERPROFILE=C:\Users\mea.SOFTWERKE, env.JAVA_HOME=C:\Program Files\Java\jdk1.8.0_161, java.awt.printerjob=sun.awt.windows.WPrinterJob, env.TMP=C:\Users\MEA~1.SOF\AppData\Local\Temp, env.PROGRAMFILES=C:\Program Files, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.windows.WToolkit, user.script=, user.home=C:\Users\mea.SOFTWERKE, env.COMMONPROGRAMFILES=C:\Program Files\Common Files, env.=EXITCODE=00000000, env.SESSIONNAME=Console, java.specification.vendor=Oracle Corporation, env.NUMBER_OF_PROCESSORS=4, library.jansi.path=C:\Program Files\apache-maven-3.5.2\bin\..\lib\jansi-native, java.library.path=C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;%JAVA_HOME%\bin;C:\Program Files\apache-maven-3.5.2\bin;C:\Program Files\curl-7.58.0-win64-mingw\bin;C:\Program Files\Git\cmd;C:\Users\mea.SOFTWERKE\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_161\bin;;., java.vendor.url=http://java.oracle.com/, env.CLASSWORLDS_LAUNCHER=org.codehaus.plexus.classworlds.launcher.Launcher, env.PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules, env.USERDNSDOMAIN=SOFTWERKE.LOCAL, env.COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files, env.MAVEN_CMD_LINE_ARGS=clean install -X, java.vm.vendor=Oracle Corporation, java.runtime.name=Java(TM) SE Runtime Environment, maven.home=C:\Program Files\apache-maven-3.5.2\bin\.., java.class.path=C:\Program Files\apache-maven-3.5.2\bin\..\boot\plexus-classworlds-2.5.2.jar, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher clean install -X, env.PROGRAMW6432=C:\Program Files, maven.version=3.5.2, env.PROGRAMFILES(X86)=C:\Program Files (x86), java.vm.specification.name=Java Virtual Machine Specification, env.LOGONSERVER=\\BACKSERVER, env.PROCESSOR_ARCHITECTURE=AMD64, java.vm.specification.version=1.8, env.COMMONPROGRAMW6432=C:\Program Files\Common Files, sun.os.patch.level=, sun.cpu.endian=little, env.PROCESSOR_REVISION=3d04, java.io.tmpdir=C:\Users\MEA~1.SOF\AppData\Local\Temp\, maven.multiModuleProjectDirectory=C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, env.COMSPEC=C:\Windows\system32\cmd.exe, env.PROGRAMDATA=C:\ProgramData, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, os.arch=amd64, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, user.dir=C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient, env.LOCALAPPDATA=C:\Users\mea.SOFTWERKE\AppData\Local, env.MAVEN_HOME=C:\Program Files\apache-maven-3.5.2\bin\.., line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, env.CLASSWORLDS_JAR="C:\Program Files\apache-maven-3.5.2\bin\..\boot\plexus-classworlds-2.5.2.jar", env.PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, env.ERROR_CODE=0, env.USERNAME=mea, file.encoding=Cp1252, sun.stderr.encoding=cp437, env.USERDOMAIN=SOFTWERKE, java.specification.version=1.8, env.=C:=C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient, env.MAVEN_PROJECTBASEDIR=C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient, env.PROCESSOR_LEVEL=6}
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] resource with targetPath null
+directory C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\src\test\resources
+excludes []
+includes []
+[INFO] skip non existing resourceDirectory C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\src\test\resources
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:testCompile (default-testCompile) @ serviceClient ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:2.0.2:testCompile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:2.0.2, parent: sun.misc.Launcher$AppClassLoader@33909752]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:2.0.2:testCompile' with basic configurator -->
+[DEBUG]   (f) basedir = C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient
+[DEBUG]   (f) buildDirectory = C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target
+[DEBUG]   (f) classpathElements = [C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\test-classes, C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\classes, C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\sling\org.apache.sling.api\2.2.4\org.apache.sling.api-2.2.4.jar, C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\felix\org.apache.felix.scr.annotations\1.9.12\org.apache.felix.scr.annotations-1.9.12.jar, C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\felix\org.osgi.core\1.4.0\org.osgi.core-1.4.0.jar, C:\Users\mea.SOFTWERKE\.m2\repository\javax\jcr\jcr\2.0\jcr-2.0.jar, C:\Users\mea.SOFTWERKE\.m2\repository\ru\macsyom\servicePrinter\1.0-SNAPSHOT\servicePrinter-1.0-SNAPSHOT.jar, C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\jackrabbit\jackrabbit-core\2.4.3\jackrabbit-core-2.4.3.jar, C:\Users\mea.SOFTWERKE\.m2\repository\concurrent\concurrent\1.3.4\concurrent-1.3.4.jar, C:\Users\mea.SOFTWERKE\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar, C:\Users\mea.SOFTWERKE\.m2\repository\commons-io\commons-io\1.4\commons-io-1.4.jar, C:\Users\mea.SOFTWERKE\.m2\repository\commons-dbcp\commons-dbcp\1.3\commons-dbcp-1.3.jar, C:\Users\mea.SOFTWERKE\.m2\repository\commons-pool\commons-pool\1.5.4\commons-pool-1.5.4.jar, C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\jackrabbit\jackrabbit-api\2.4.3\jackrabbit-api-2.4.3.jar, C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\jackrabbit\jackrabbit-spi-commons\2.4.3\jackrabbit-spi-commons-2.4.3.jar, C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\jackrabbit\jackrabbit-spi\2.4.3\jackrabbit-spi-2.4.3.jar, C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\tika\tika-core\1.0\tika-core-1.0.jar, C:\Users\mea.SOFTWERKE\.m2\repository\org\slf4j\slf4j-api\1.6.4\slf4j-api-1.6.4.jar, C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\lucene\lucene-core\3.0.3\lucene-core-3.0.3.jar, C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\derby\derby\10.5.3.0_1\derby-10.5.3.0_1.jar, C:\Users\mea.SOFTWERKE\.m2\repository\org\slf4j\jcl-over-slf4j\1.6.4\jcl-over-slf4j-1.6.4.jar, C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\jackrabbit\jackrabbit-jcr-commons\2.4.3\jackrabbit-jcr-commons-2.4.3.jar]
+[DEBUG]   (f) compileSourceRoots = [C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\src\test\java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\test-classes
+[DEBUG]   (f) outputFileName = printerClient
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) source = 1.8
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.8
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Source directories: [C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\src\test\java]
+[DEBUG] Classpath: [C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\test-classes
+ C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\classes
+ C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\sling\org.apache.sling.api\2.2.4\org.apache.sling.api-2.2.4.jar
+ C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\felix\org.apache.felix.scr.annotations\1.9.12\org.apache.felix.scr.annotations-1.9.12.jar
+ C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\felix\org.osgi.core\1.4.0\org.osgi.core-1.4.0.jar
+ C:\Users\mea.SOFTWERKE\.m2\repository\javax\jcr\jcr\2.0\jcr-2.0.jar
+ C:\Users\mea.SOFTWERKE\.m2\repository\ru\macsyom\servicePrinter\1.0-SNAPSHOT\servicePrinter-1.0-SNAPSHOT.jar
+ C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\jackrabbit\jackrabbit-core\2.4.3\jackrabbit-core-2.4.3.jar
+ C:\Users\mea.SOFTWERKE\.m2\repository\concurrent\concurrent\1.3.4\concurrent-1.3.4.jar
+ C:\Users\mea.SOFTWERKE\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar
+ C:\Users\mea.SOFTWERKE\.m2\repository\commons-io\commons-io\1.4\commons-io-1.4.jar
+ C:\Users\mea.SOFTWERKE\.m2\repository\commons-dbcp\commons-dbcp\1.3\commons-dbcp-1.3.jar
+ C:\Users\mea.SOFTWERKE\.m2\repository\commons-pool\commons-pool\1.5.4\commons-pool-1.5.4.jar
+ C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\jackrabbit\jackrabbit-api\2.4.3\jackrabbit-api-2.4.3.jar
+ C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\jackrabbit\jackrabbit-spi-commons\2.4.3\jackrabbit-spi-commons-2.4.3.jar
+ C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\jackrabbit\jackrabbit-spi\2.4.3\jackrabbit-spi-2.4.3.jar
+ C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\tika\tika-core\1.0\tika-core-1.0.jar
+ C:\Users\mea.SOFTWERKE\.m2\repository\org\slf4j\slf4j-api\1.6.4\slf4j-api-1.6.4.jar
+ C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\lucene\lucene-core\3.0.3\lucene-core-3.0.3.jar
+ C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\derby\derby\10.5.3.0_1\derby-10.5.3.0_1.jar
+ C:\Users\mea.SOFTWERKE\.m2\repository\org\slf4j\jcl-over-slf4j\1.6.4\jcl-over-slf4j-1.6.4.jar
+ C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\jackrabbit\jackrabbit-jcr-commons\2.4.3\jackrabbit-jcr-commons-2.4.3.jar]
+[DEBUG] Output directory: C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\test-classes
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.21.0:test (default-test) @ serviceClient ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=457669, ConflictMarker.markTime=93773, ConflictMarker.nodeCount=114, ConflictIdSorter.graphTime=118033, ConflictIdSorter.topsortTime=55518, ConflictIdSorter.conflictIdCount=37, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1948706, ConflictResolver.conflictItemCount=79, DefaultDependencyCollector.collectTime=96887109, DefaultDependencyCollector.transformTime=2704955}
+[DEBUG] org.apache.maven.plugins:maven-surefire-plugin:jar:2.21.0:
+[DEBUG]    org.apache.maven.surefire:maven-surefire-common:jar:2.21.0:compile
+[DEBUG]       org.apache.maven:maven-plugin-api:jar:2.2.1:compile
+[DEBUG]       org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.5:compile
+[DEBUG]       org.apache.maven.surefire:surefire-api:jar:2.21.0:compile
+[DEBUG]          org.apache.maven.surefire:surefire-logger-api:jar:2.21.0:compile
+[DEBUG]       org.apache.maven.surefire:surefire-booter:jar:2.21.0:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:2.2.1:compile
+[DEBUG]          org.codehaus.plexus:plexus-utils:jar:1.5.15:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.2.1:compile
+[DEBUG]          org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]             junit:junit:jar:4.12:compile
+[DEBUG]                org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]       org.apache.maven:maven-project:jar:2.2.1:compile
+[DEBUG]          org.apache.maven:maven-settings:jar:2.2.1:compile
+[DEBUG]          org.apache.maven:maven-profile:jar:2.2.1:compile
+[DEBUG]          org.apache.maven:maven-artifact-manager:jar:2.2.1:compile
+[DEBUG]             backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[DEBUG]          org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+[DEBUG]          org.codehaus.plexus:plexus-interpolation:jar:1.11:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-core:jar:2.2.1:compile
+[DEBUG]          org.apache.maven:maven-plugin-parameter-documenter:jar:2.2.1:compile
+[DEBUG]          org.slf4j:slf4j-jdk14:jar:1.5.6:runtime
+[DEBUG]             org.slf4j:slf4j-api:jar:1.5.6:runtime
+[DEBUG]          org.slf4j:jcl-over-slf4j:jar:1.5.6:runtime
+[DEBUG]          org.apache.maven.reporting:maven-reporting-api:jar:3.0:compile
+[DEBUG]          org.apache.maven:maven-repository-metadata:jar:2.2.1:compile
+[DEBUG]          org.apache.maven:maven-error-diagnostics:jar:2.2.1:compile
+[DEBUG]          org.apache.maven:maven-monitor:jar:2.2.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1:compile
+[DEBUG]          org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]             org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]       org.apache.maven:maven-toolchain:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-java:jar:0.9.3:compile
+[DEBUG]          org.ow2.asm:asm:jar:6.0_BETA:compile
+[DEBUG]          com.thoughtworks.qdox:qdox:jar:2.0-M7:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.21.0
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.21.0
+[DEBUG]   Imported:  < project>ru.macsyom:serviceClient:1.0-SNAPSHOT
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.21.0
+[DEBUG]   Included: org.apache.maven.plugins:maven-surefire-plugin:jar:2.21.0
+[DEBUG]   Included: org.apache.maven.surefire:maven-surefire-common:jar:2.21.0
+[DEBUG]   Included: org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.5
+[DEBUG]   Included: org.apache.maven.surefire:surefire-api:jar:2.21.0
+[DEBUG]   Included: org.apache.maven.surefire:surefire-logger-api:jar:2.21.0
+[DEBUG]   Included: org.apache.maven.surefire:surefire-booter:jar:2.21.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.15
+[DEBUG]   Included: junit:junit:jar:4.12
+[DEBUG]   Included: org.hamcrest:hamcrest-core:jar:1.3
+[DEBUG]   Included: backport-util-concurrent:backport-util-concurrent:jar:3.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.11
+[DEBUG]   Included: org.slf4j:slf4j-jdk14:jar:1.5.6
+[DEBUG]   Included: org.slf4j:jcl-over-slf4j:jar:1.5.6
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:3.0
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-java:jar:0.9.3
+[DEBUG]   Included: org.ow2.asm:asm:jar:6.0_BETA
+[DEBUG]   Included: com.thoughtworks.qdox:qdox:jar:2.0-M7
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-surefire-plugin:2.21.0:test from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-surefire-plugin:2.21.0, parent: sun.misc.Launcher$AppClassLoader@33909752]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-surefire-plugin:2.21.0:test' with basic configurator -->
+[DEBUG]   (s) additionalClasspathElements = []
+[DEBUG]   (s) basedir = C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient
+[DEBUG]   (s) childDelegation = false
+[DEBUG]   (s) classesDirectory = C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\classes
+[DEBUG]   (s) classpathDependencyExcludes = []
+[DEBUG]   (s) dependenciesToScan = []
+[DEBUG]   (s) disableXmlReport = false
+[DEBUG]   (s) enableAssertions = true
+[DEBUG]   (f) forkCount = 1
+[DEBUG]   (s) forkMode = once
+[DEBUG]   (s) forkedProcessExitTimeoutInSeconds = 30
+[DEBUG]   (s) junitArtifactName = junit:junit
+[DEBUG]   (s) localRepository =       id: local
+      url: file:///C:/Users/mea.SOFTWERKE/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) parallelMavenExecution = false
+[DEBUG]   (s) parallelOptimized = true
+[DEBUG]   (s) perCoreThreadCount = true
+[DEBUG]   (s) pluginArtifactMap = {org.apache.maven.plugins:maven-surefire-plugin=org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:2.21.0:, org.apache.maven.surefire:maven-surefire-common=org.apache.maven.surefire:maven-surefire-common:jar:2.21.0:compile, org.apache.maven:maven-plugin-api=org.apache.maven:maven-plugin-api:jar:2.2.1:compile, org.apache.maven.plugin-tools:maven-plugin-annotations=org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.5:compile, org.apache.maven.surefire:surefire-api=org.apache.maven.surefire:surefire-api:jar:2.21.0:compile, org.apache.maven.surefire:surefire-logger-api=org.apache.maven.surefire:surefire-logger-api:jar:2.21.0:compile, org.apache.maven.surefire:surefire-booter=org.apache.maven.surefire:surefire-booter:jar:2.21.0:compile, org.apache.maven:maven-artifact=org.apache.maven:maven-artifact:jar:2.2.1:compile, org.codehaus.plexus:plexus-utils=org.codehaus.plexus:plexus-utils:jar:1.5.15:compile, org.apache.maven:maven-plugin-descriptor=org.apache.maven:maven-plugin-descriptor:jar:2.2.1:compile, org.codehaus.plexus:plexus-container-default=org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile, junit:junit=junit:junit:jar:4.12:compile, org.hamcrest:hamcrest-core=org.hamcrest:hamcrest-core:jar:1.3:compile, org.apache.maven:maven-project=org.apache.maven:maven-project:jar:2.2.1:compile, org.apache.maven:maven-settings=org.apache.maven:maven-settings:jar:2.2.1:compile, org.apache.maven:maven-profile=org.apache.maven:maven-profile:jar:2.2.1:compile, org.apache.maven:maven-artifact-manager=org.apache.maven:maven-artifact-manager:jar:2.2.1:compile, backport-util-concurrent:backport-util-concurrent=backport-util-concurrent:backport-util-concurrent:jar:3.1:compile, org.apache.maven:maven-plugin-registry=org.apache.maven:maven-plugin-registry:jar:2.2.1:compile, org.codehaus.plexus:plexus-interpolation=org.codehaus.plexus:plexus-interpolation:jar:1.11:compile, org.apache.maven:maven-model=org.apache.maven:maven-model:jar:2.2.1:compile, org.apache.maven:maven-core=org.apache.maven:maven-core:jar:2.2.1:compile, org.apache.maven:maven-plugin-parameter-documenter=org.apache.maven:maven-plugin-parameter-documenter:jar:2.2.1:compile, org.slf4j:slf4j-jdk14=org.slf4j:slf4j-jdk14:jar:1.5.6:runtime, org.slf4j:slf4j-api=org.slf4j:slf4j-api:jar:1.5.6:runtime, org.slf4j:jcl-over-slf4j=org.slf4j:jcl-over-slf4j:jar:1.5.6:runtime, org.apache.maven.reporting:maven-reporting-api=org.apache.maven.reporting:maven-reporting-api:jar:3.0:compile, org.apache.maven:maven-repository-metadata=org.apache.maven:maven-repository-metadata:jar:2.2.1:compile, org.apache.maven:maven-error-diagnostics=org.apache.maven:maven-error-diagnostics:jar:2.2.1:compile, org.apache.maven:maven-monitor=org.apache.maven:maven-monitor:jar:2.2.1:compile, classworlds:classworlds=classworlds:classworlds:jar:1.1:compile, org.sonatype.plexus:plexus-sec-dispatcher=org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile, org.sonatype.plexus:plexus-cipher=org.sonatype.plexus:plexus-cipher:jar:1.4:compile, org.apache.maven:maven-toolchain=org.apache.maven:maven-toolchain:jar:2.2.1:compile, org.codehaus.plexus:plexus-java=org.codehaus.plexus:plexus-java:jar:0.9.3:compile, org.ow2.asm:asm=org.ow2.asm:asm:jar:6.0_BETA:compile, com.thoughtworks.qdox:qdox=com.thoughtworks.qdox:qdox:jar:2.0-M7:compile}
+[DEBUG]   (f) pluginDescriptor = Component Descriptor: role: 'org.apache.maven.plugin.Mojo', implementation: 'org.apache.maven.plugin.surefire.HelpMojo', role hint: 'org.apache.maven.plugins:maven-surefire-plugin:2.21.0:help'
+role: 'org.apache.maven.plugin.Mojo', implementation: 'org.apache.maven.plugin.surefire.SurefirePlugin', role hint: 'org.apache.maven.plugins:maven-surefire-plugin:2.21.0:test'
+---
+[DEBUG]   (s) printSummary = true
+[DEBUG]   (s) projectArtifactMap = {org.apache.sling:org.apache.sling.api=org.apache.sling:org.apache.sling.api:jar:2.2.4:provided, org.apache.felix:org.apache.felix.scr.annotations=org.apache.felix:org.apache.felix.scr.annotations:jar:1.9.12:compile, org.apache.felix:org.osgi.core=org.apache.felix:org.osgi.core:jar:1.4.0:compile, javax.jcr:jcr=javax.jcr:jcr:jar:2.0:compile, ru.macsyom:servicePrinter=ru.macsyom:servicePrinter:jar:1.0-SNAPSHOT:compile, org.apache.jackrabbit:jackrabbit-core=org.apache.jackrabbit:jackrabbit-core:jar:2.4.3:compile, concurrent:concurrent=concurrent:concurrent:jar:1.3.4:compile, commons-collections:commons-collections=commons-collections:commons-collections:jar:3.2.1:compile, commons-io:commons-io=commons-io:commons-io:jar:1.4:compile, commons-dbcp:commons-dbcp=commons-dbcp:commons-dbcp:jar:1.3:compile, commons-pool:commons-pool=commons-pool:commons-pool:jar:1.5.4:compile, org.apache.jackrabbit:jackrabbit-api=org.apache.jackrabbit:jackrabbit-api:jar:2.4.3:compile, org.apache.jackrabbit:jackrabbit-spi-commons=org.apache.jackrabbit:jackrabbit-spi-commons:jar:2.4.3:compile, org.apache.jackrabbit:jackrabbit-spi=org.apache.jackrabbit:jackrabbit-spi:jar:2.4.3:compile, org.apache.tika:tika-core=org.apache.tika:tika-core:jar:1.0:compile, org.slf4j:slf4j-api=org.slf4j:slf4j-api:jar:1.6.4:compile, org.apache.lucene:lucene-core=org.apache.lucene:lucene-core:jar:3.0.3:compile, org.apache.derby:derby=org.apache.derby:derby:jar:10.5.3.0_1:compile, org.slf4j:jcl-over-slf4j=org.slf4j:jcl-over-slf4j:jar:1.6.4:compile, org.apache.jackrabbit:jackrabbit-jcr-commons=org.apache.jackrabbit:jackrabbit-jcr-commons:jar:2.4.3:compile}
+[DEBUG]   (s) projectBuildDirectory = C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target
+[DEBUG]   (s) redirectTestOutputToFile = false
+[DEBUG]   (s) remoteRepositories = [      id: adobe-public-releases
+      url: http://repo.adobe.com/nexus/content/groups/public
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => daily]
+,       id: central
+      url: https://repo.maven.apache.org/maven2
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => never]
+]
+[DEBUG]   (s) reportFormat = brief
+[DEBUG]   (s) reportsDirectory = C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\surefire-reports
+[DEBUG]   (f) rerunFailingTestsCount = 0
+[DEBUG]   (f) reuseForks = true
+[DEBUG]   (s) runOrder = filesystem
+[DEBUG]   (f) shutdown = testset
+[DEBUG]   (s) skip = false
+[DEBUG]   (f) skipAfterFailureCount = 0
+[DEBUG]   (s) skipTests = false
+[DEBUG]   (s) suiteXmlFiles = []
+[DEBUG]   (s) tempDir = surefire
+[DEBUG]   (s) testClassesDirectory = C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\test-classes
+[DEBUG]   (s) testFailureIgnore = false
+[DEBUG]   (s) testNGArtifactName = org.testng:testng
+[DEBUG]   (s) testSourceDirectory = C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\src\test\java
+[DEBUG]   (s) threadCountClasses = 0
+[DEBUG]   (s) threadCountMethods = 0
+[DEBUG]   (s) threadCountSuites = 0
+[DEBUG]   (s) trimStackTrace = true
+[DEBUG]   (s) useFile = true
+[DEBUG]   (s) useManifestOnlyJar = true
+[DEBUG]   (s) useSystemClassLoader = true
+[DEBUG]   (s) useUnlimitedThreads = false
+[DEBUG]   (s) workingDirectory = C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient
+[DEBUG]   (s) project = MavenProject: ru.macsyom:serviceClient:1.0-SNAPSHOT @ C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\pom.xml
+[DEBUG]   (s) session = org.apache.maven.execution.MavenSession@31ee96f4
+[DEBUG] -- end configuration --
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-bundle-plugin:3.5.0:bundle (default-bundle) @ serviceClient ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=274788, ConflictMarker.markTime=139959, ConflictMarker.nodeCount=206, ConflictIdSorter.graphTime=132495, ConflictIdSorter.topsortTime=81644, ConflictIdSorter.conflictIdCount=64, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=4659725, ConflictResolver.conflictItemCount=133, DefaultDependencyCollector.collectTime=11613857, DefaultDependencyCollector.transformTime=5348793}
+[DEBUG] org.apache.felix:maven-bundle-plugin:jar:3.5.0:
+[DEBUG]    org.osgi:org.osgi.core:jar:4.3.1:compile
+[DEBUG]    biz.aQute.bnd:biz.aQute.bndlib:jar:3.5.0:compile
+[DEBUG]    org.apache.felix:org.apache.felix.bundlerepository:jar:1.6.6:compile
+[DEBUG]       org.easymock:easymock:jar:3.4:compile
+[DEBUG]          org.objenesis:objenesis:jar:2.2:compile
+[DEBUG]    org.apache.felix:org.apache.felix.utils:jar:1.6.0:compile
+[DEBUG]       org.osgi:org.osgi.compendium:jar:4.2.0:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.2.0:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.2.0:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.2.0:compile
+[DEBUG]       org.slf4j:slf4j-jdk14:jar:1.5.6:runtime
+[DEBUG]          org.slf4j:slf4j-api:jar:1.5.6:runtime
+[DEBUG]       org.slf4j:jcl-over-slf4j:jar:1.5.6:runtime
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.2.0:compile
+[DEBUG]          org.apache.maven.doxia:doxia-logging-api:jar:1.1:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.2.0:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.2.0:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:2.2.0:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:4.12:compile
+[DEBUG]             org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.2.0:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.2.0:compile
+[DEBUG]       org.apache.maven:maven-project:jar:2.2.0:compile
+[DEBUG]          org.apache.maven:maven-plugin-registry:jar:2.2.0:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.2:compile
+[DEBUG]       org.apache.maven:maven-plugin-api:jar:2.2.0:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.2.0:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.2.0:compile
+[DEBUG]          backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.2.0:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven:maven-archiver:jar:2.6:compile
+[DEBUG]       org.apache.maven.shared:maven-shared-utils:jar:0.7:compile
+[DEBUG]          com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-archiver:jar:2.8.1:compile
+[DEBUG]          org.codehaus.plexus:plexus-io:jar:2.3.2:compile
+[DEBUG]          org.apache.commons:commons-compress:jar:1.9:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.21:compile
+[DEBUG]    org.apache.maven.shared:maven-dependency-tree:jar:2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]       org.eclipse.aether:aether-util:jar:0.9.0.M2:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.10:compile
+[DEBUG]    org.sonatype.plexus:plexus-build-api:jar:0.0.7:compile
+[DEBUG]    org.apache.maven.doxia:doxia-sink-api:jar:1.0:compile
+[DEBUG]    org.apache.maven.doxia:doxia-site-renderer:jar:1.0:compile
+[DEBUG]       org.apache.maven.doxia:doxia-core:jar:1.0:compile
+[DEBUG]       org.codehaus.plexus:plexus-i18n:jar:1.0-beta-7:compile
+[DEBUG]       org.codehaus.plexus:plexus-velocity:jar:1.1.7:compile
+[DEBUG]       org.apache.velocity:velocity:jar:1.5:compile
+[DEBUG]          commons-lang:commons-lang:jar:2.1:compile
+[DEBUG]          oro:oro:jar:2.0.8:compile
+[DEBUG]       org.apache.maven.doxia:doxia-decoration-model:jar:1.0:compile
+[DEBUG]       commons-collections:commons-collections:jar:3.2:compile
+[DEBUG]       org.apache.maven.doxia:doxia-module-apt:jar:1.0:compile
+[DEBUG]       org.apache.maven.doxia:doxia-module-fml:jar:1.0:compile
+[DEBUG]       org.apache.maven.doxia:doxia-module-xdoc:jar:1.0:compile
+[DEBUG]       org.apache.maven.doxia:doxia-module-xhtml:jar:1.0:compile
+[DEBUG]    org.jdom:jdom:jar:1.1:compile
+[DEBUG] Configuring mojo org.apache.felix:maven-bundle-plugin:3.5.0:bundle from plugin realm ClassRealm[extension>org.apache.felix:maven-bundle-plugin:3.5.0, parent: sun.misc.Launcher$AppClassLoader@33909752]
+[DEBUG] Configuring mojo 'org.apache.felix:maven-bundle-plugin:3.5.0:bundle' with basic configurator -->
+[DEBUG]   (f) buildDirectory = C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target
+[DEBUG]   (f) dependencyReducedPomLocation = C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\dependency-reduced-pom.xml
+[DEBUG]   (f) finalName = printerClient
+[DEBUG]   (f) instructions = {Bundle-Activator=osgi.java.client.ClientActivator, Bundle-Name=Client for printing, Bundle-SymbolicName=ru.macsyom.print.client, Export-Package=osgi.java.client, Import-Package=osgi.service.printer, Sling-Initial-Content=SLING-INF/apps/sling-contact-list;overwrite:=true;uninstall:=true;path:=/apps/sling-contact-list,
+                            SLING-INF/content;overwrite:=true;uninstall:=true;path:=/content,
+                            SLING-INF/etc/sling-contact-list;overwrite:=true;uninstall:=true;path:=/etc/sling-contact-list}
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///C:/Users/mea.SOFTWERKE/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) m_mavenSession = org.apache.maven.execution.MavenSession@31ee96f4
+[DEBUG]   (f) manifestLocation = C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\classes\META-INF
+[DEBUG]   (f) niceManifest = false
+[DEBUG]   (f) outputDirectory = C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\classes
+[DEBUG]   (f) project = MavenProject: ru.macsyom:serviceClient:1.0-SNAPSHOT @ C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\pom.xml
+[DEBUG]   (f) remoteArtifactRepositories = [      id: adobe-public-releases
+      url: http://repo.adobe.com/nexus/content/groups/public
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => daily]
+,       id: central
+      url: https://repo.maven.apache.org/maven2
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => daily]
+]
+[DEBUG]   (f) scrLocation = C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\classes
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@31ee96f4
+[DEBUG] -- end configuration --
+[DEBUG] building maven31 dependency graph for ru.macsyom:serviceClient:bundle:1.0-SNAPSHOT
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=90507, ConflictMarker.markTime=53651, ConflictMarker.nodeCount=33, ConflictIdSorter.graphTime=65781, ConflictIdSorter.topsortTime=35456, ConflictIdSorter.conflictIdCount=20, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=843957, ConflictResolver.conflictItemCount=32, DefaultDependencyCollector.collectTime=1193390, DefaultDependencyCollector.transformTime=1109881}
+[DEBUG] ru.macsyom:serviceClient:bundle:1.0-SNAPSHOT
+[DEBUG]    org.apache.sling:org.apache.sling.api:jar:2.2.4:provided
+[DEBUG]    org.apache.felix:org.apache.felix.scr.annotations:jar:1.9.12:compile
+[DEBUG]    org.apache.felix:org.osgi.core:jar:1.4.0:compile
+[DEBUG]    javax.jcr:jcr:jar:2.0:compile
+[DEBUG]    ru.macsyom:servicePrinter:jar:1.0-SNAPSHOT:compile
+[DEBUG]    org.apache.jackrabbit:jackrabbit-core:jar:2.4.3:compile
+[DEBUG]       concurrent:concurrent:jar:1.3.4:compile
+[DEBUG]       commons-collections:commons-collections:jar:3.2.1:compile
+[DEBUG]       commons-io:commons-io:jar:1.4:compile
+[DEBUG]       commons-dbcp:commons-dbcp:jar:1.3:compile
+[DEBUG]          commons-pool:commons-pool:jar:1.5.4:compile
+[DEBUG]       org.apache.jackrabbit:jackrabbit-api:jar:2.4.3:compile
+[DEBUG]       org.apache.jackrabbit:jackrabbit-spi-commons:jar:2.4.3:compile
+[DEBUG]       org.apache.jackrabbit:jackrabbit-spi:jar:2.4.3:compile
+[DEBUG]       org.apache.tika:tika-core:jar:1.0:compile
+[DEBUG]       org.slf4j:slf4j-api:jar:1.6.4:compile
+[DEBUG]       org.apache.lucene:lucene-core:jar:3.0.3:compile
+[DEBUG]       org.apache.derby:derby:jar:10.5.3.0_1:compile
+[DEBUG]       org.slf4j:jcl-over-slf4j:jar:1.6.4:compile
+[DEBUG]    org.apache.jackrabbit:jackrabbit-jcr-commons:jar:2.4.3:compile
+[DEBUG] BND Instructions:
+#-----------------------------------------------------------------------
+#Thu Mar 22 13:51:10 MSK 2018
+pom.id=ru.macsyom\:serviceClient\:bundle\:1.0-SNAPSHOT
+file.encoding.pkg=sun.io
+env.PROMPT=$P$G
+java.home=C\:\\Program Files\\Java\\jdk1.8.0_161\\jre
+pom.contributors=[]
+project.build.developers=[]
+classworlds.conf=C\:\\Program Files\\apache-maven-3.5.2\\bin\\..\\bin\\m2.conf
+pom.pomFile=C\:\\Users\\mea.SOFTWERKE\\IdeaProjects\\slingProject\\serviceClient\\pom.xml
+java.endorsed.dirs=C\:\\Program Files\\Java\\jdk1.8.0_161\\jre\\lib\\endorsed
+project.build.groupId=ru.macsyom
+env.USERNAME=mea
+sun.os.patch.level=
+java.vendor.url=http\://java.oracle.com/
+env.COMPUTERNAME=NBMEA
+env.\=C\:=C\:\\Users\\mea.SOFTWERKE\\IdeaProjects\\slingProject\\serviceClient
+pom.profiles=[]
+maven-symbolicname=ru.macsyom.serviceClient
+java.version=1.8.0_161
+project.build.contributors=[]
+java.vendor.url.bug=http\://bugreport.sun.com/bugreport/
+env.USERPROFILE=C\:\\Users\\mea.SOFTWERKE
+user.name=mea
+project.build.pomFile=C\:\\Users\\mea.SOFTWERKE\\IdeaProjects\\slingProject\\serviceClient\\pom.xml
+sun.io.unicode.encoding=UnicodeLittle
+sun.jnu.encoding=Cp1252
+java.runtime.name=Java(TM) SE Runtime Environment
+project.build.outputdirectory=C\:\\Users\\mea.SOFTWERKE\\IdeaProjects\\slingProject\\serviceClient\\target\\classes
+env.LOCALAPPDATA=C\:\\Users\\mea.SOFTWERKE\\AppData\\Local
+env.COMMONPROGRAMW6432=C\:\\Program Files\\Common Files
+project.version=1.0-SNAPSHOT
+java.specification.name=Java Platform API Specification
+user.timezone=Europe/Moscow
+pom.mailingLists=[]
+user.script=
+path.separator=;
+project.contributors=[]
+pom.artifactId=serviceClient
+env.MAVEN_CMD_LINE_ARGS=clean install -X
+-fixupmessages=Classes found in the wrong directory;is\:\=warning
+env.PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 61 Stepping 4, GenuineIntel
+file.encoding=Cp1252
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher clean install -X
+env.NUMBER_OF_PROCESSORS=4
+env.APPDATA=C\:\\Users\\mea.SOFTWERKE\\AppData\\Roaming
+project.id=ru.macsyom\:serviceClient\:bundle\:1.0-SNAPSHOT
+env.WINDIR=C\:\\Windows
+Bundle-Activator=osgi.java.client.ClientActivator
+Export-Package=osgi.java.client
+java.io.tmpdir=C\:\\Users\\MEA~1.SOF\\AppData\\Local\\Temp\\
+project.build.mailingLists=[]
+user.language=en
+line.separator=\r\n
+project.build.directory=C\:\\Users\\mea.SOFTWERKE\\IdeaProjects\\slingProject\\serviceClient\\target
+env.COMMONPROGRAMFILES=C\:\\Program Files\\Common Files
+java.vm.info=mixed mode
+sun.desktop=windows
+java.vm.specification.name=Java Virtual Machine Specification
+project.modelEncoding=UTF-8
+project.build.id=ru.macsyom\:serviceClient\:bundle\:1.0-SNAPSHOT
+env.PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+env.WDIR=C\:\\
+env.ONEDRIVE=C\:\\Users\\mea.SOFTWERKE\\OneDrive
+env.USERDOMAIN_ROAMINGPROFILE=SOFTWERKE
+project.build.licenses=[]
+pom.modelVersion=4.0.0
+project.licenses=[]
+env.LOGONSERVER=\\\\BACKSERVER
+env.PSMODULEPATH=C\:\\Program Files\\WindowsPowerShell\\Modules;C\:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules
+project.developers=[]
+java.awt.printerjob=sun.awt.windows.WPrinterJob
+-removeheaders=Include-Resource,Private-Package
+env.JAVACMD=C\:\\Program Files\\Java\\jdk1.8.0_161\\bin\\java.exe
+env.JVMCONFIG=\\.mvn\\jvm.config
+env.PUBLIC=C\:\\Users\\Public
+pom.version=1.0-SNAPSHOT
+env.USERDOMAIN=SOFTWERKE
+-plugin=org.apache.felix.bundleplugin.BlueprintPlugin,aQute.lib.spring.SpringXMLType,org.apache.felix.bundleplugin.JpaPlugin
+project.mailingLists=[]
+pom.packaging=bundle
+env.PROCESSOR_LEVEL=6
+project.build.parent=ru.macsyom\:slingProject\:pom\:1.0-SNAPSHOT
+env.PROGRAMFILES(X86)=C\:\\Program Files (x86)
+project.projectDirectory=C\:\\Users\\mea.SOFTWERKE\\IdeaProjects\\slingProject\\serviceClient
+env.\=EXITCODE=00000000
+os.name=Windows 10
+project.build.modelVersion=4.0.0
+java.specification.vendor=Oracle Corporation
+env.TMP=C\:\\Users\\MEA~1.SOF\\AppData\\Local\\Temp
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+env.OS=Windows_NT
+java.library.path=C\:\\Program Files\\Java\\jdk1.8.0_161\\bin;C\:\\Windows\\Sun\\Java\\bin;C\:\\Windows\\system32;C\:\\Windows;C\:\\ProgramData\\Oracle\\Java\\javapath;C\:\\Windows\\system32;C\:\\Windows;C\:\\Windows\\System32\\Wbem;C\:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;%JAVA_HOME%\\bin;C\:\\Program Files\\apache-maven-3.5.2\\bin;C\:\\Program Files\\curl-7.58.0-win64-mingw\\bin;C\:\\Program Files\\Git\\cmd;C\:\\Users\\mea.SOFTWERKE\\AppData\\Local\\Microsoft\\WindowsApps;C\:\\Program Files\\Java\\jdk1.8.0_161\\bin;;.
+project.build.build=org.apache.maven.model.Build@c2584d3
+env.PROGRAMW6432=C\:\\Program Files
+env.PATH=C\:\\ProgramData\\Oracle\\Java\\javapath;C\:\\Windows\\system32;C\:\\Windows;C\:\\Windows\\System32\\Wbem;C\:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;%JAVA_HOME%\\bin;C\:\\Program Files\\apache-maven-3.5.2\\bin;C\:\\Program Files\\curl-7.58.0-win64-mingw\\bin;C\:\\Program Files\\Git\\cmd;C\:\\Users\\mea.SOFTWERKE\\AppData\\Local\\Microsoft\\WindowsApps;C\:\\Program Files\\Java\\jdk1.8.0_161\\bin;
+pom.build=org.apache.maven.model.Build@c2584d3
+library.jansi.path=C\:\\Program Files\\apache-maven-3.5.2\\bin\\..\\lib\\jansi-native
+java.class.version=52.0
+maven.multiModuleProjectDirectory=C\:\\Users\\mea.SOFTWERKE\\IdeaProjects\\slingProject\\serviceClient
+project.build.version=1.0-SNAPSHOT
+pom.parent=ru.macsyom\:slingProject\:pom\:1.0-SNAPSHOT
+pom.projectDirectory=C\:\\Users\\mea.SOFTWERKE\\IdeaProjects\\slingProject\\serviceClient
+project.modelVersion=4.0.0
+env.HOMEDRIVE=C\:
+env.SYSTEMROOT=C\:\\Windows
+env.COMSPEC=C\:\\Windows\\system32\\cmd.exe
+Bundle-SymbolicName=ru.macsyom.print.client
+sun.boot.library.path=C\:\\Program Files\\Java\\jdk1.8.0_161\\jre\\bin
+env.SYSTEMDRIVE=C\:
+Private-Package=osgi.java.client
+env.PROCESSOR_REVISION=3d04
+project.build.artifactId=serviceClient
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+user.variant=
+pom.developers=[]
+project.build=org.apache.maven.model.Build@c2584d3
+project.baseDir=C\:\\Users\\mea.SOFTWERKE\\IdeaProjects\\slingProject\\serviceClient
+env.PROGRAMFILES=C\:\\Program Files
+java.vm.specification.version=1.8
+project.groupId=ru.macsyom
+Bundle-Version=1.0.0.SNAPSHOT
+env.PROGRAMDATA=C\:\\ProgramData
+awt.toolkit=sun.awt.windows.WToolkit
+project.build.profiles=[]
+env.MAVEN_HOME=C\:\\Program Files\\apache-maven-3.5.2\\bin\\..
+sun.cpu.isalist=amd64
+sun.stderr.encoding=cp437
+env.MAVEN_PROJECTBASEDIR=C\:\\Users\\mea.SOFTWERKE\\IdeaProjects\\slingProject\\serviceClient
+project.profiles=[]
+java.ext.dirs=C\:\\Program Files\\Java\\jdk1.8.0_161\\jre\\lib\\ext;C\:\\Windows\\Sun\\Java\\lib\\ext
+Import-Package=osgi.service.printer
+os.version=10.0
+env.ERROR_CODE=0
+user.home=C\:\\Users\\mea.SOFTWERKE
+java.vm.vendor=Oracle Corporation
+env.USERDNSDOMAIN=SOFTWERKE.LOCAL
+env.JAVA_HOME=C\:\\Program Files\\Java\\jdk1.8.0_161
+user.dir=C\:\\Users\\mea.SOFTWERKE\\IdeaProjects\\slingProject\\serviceClient
+maven.conf=C\:\\Program Files\\apache-maven-3.5.2\\bin\\../conf
+project.build.modelEncoding=UTF-8
+env.COMMONPROGRAMFILES(X86)=C\:\\Program Files (x86)\\Common Files
+project.parent=ru.macsyom\:slingProject\:pom\:1.0-SNAPSHOT
+sun.cpu.endian=little
+env.ALLUSERSPROFILE=C\:\\ProgramData
+pom.licenses=[]
+project.dir=C\:\\Users\\mea.SOFTWERKE\\IdeaProjects\\slingProject\\serviceClient
+env.CLASSWORLDS_LAUNCHER=org.codehaus.plexus.classworlds.launcher.Launcher
+classifier=
+env.PROCESSOR_ARCHITECTURE=AMD64
+java.vm.version=25.161-b12
+java.class.path=C\:\\Program Files\\apache-maven-3.5.2\\bin\\..\\boot\\plexus-classworlds-2.5.2.jar
+env.\=\:\:=\:\:\\
+org.slf4j.simpleLogger.defaultLogLevel=debug
+env.HOMEPATH=\\Users\\mea.SOFTWERKE
+env.EXEC_DIR=C\:\\Users\\mea.SOFTWERKE\\IdeaProjects\\slingProject\\serviceClient
+os.arch=amd64
+maven.build.version=Apache Maven 3.5.2 (138edd61fd100ec658bfa2d307c43b76940a5d7d; 2017-10-18T10\:58\:13+03\:00)
+env.SESSIONNAME=Console
+project.build.projectDirectory=C\:\\Users\\mea.SOFTWERKE\\IdeaProjects\\slingProject\\serviceClient
+sun.java.launcher=SUN_STANDARD
+project.packaging=bundle
+java.vm.specification.vendor=Oracle Corporation
+file.separator=\\
+java.runtime.version=1.8.0_161-b12
+project.pomFile=C\:\\Users\\mea.SOFTWERKE\\IdeaProjects\\slingProject\\serviceClient\\pom.xml
+sun.boot.class.path=C\:\\Program Files\\Java\\jdk1.8.0_161\\jre\\lib\\resources.jar;C\:\\Program Files\\Java\\jdk1.8.0_161\\jre\\lib\\rt.jar;C\:\\Program Files\\Java\\jdk1.8.0_161\\jre\\lib\\sunrsasign.jar;C\:\\Program Files\\Java\\jdk1.8.0_161\\jre\\lib\\jsse.jar;C\:\\Program Files\\Java\\jdk1.8.0_161\\jre\\lib\\jce.jar;C\:\\Program Files\\Java\\jdk1.8.0_161\\jre\\lib\\charsets.jar;C\:\\Program Files\\Java\\jdk1.8.0_161\\jre\\lib\\jfr.jar;C\:\\Program Files\\Java\\jdk1.8.0_161\\jre\\classes
+project.build.packaging=bundle
+maven.version=3.5.2
+Sling-Initial-Content=SLING-INF/apps/sling-contact-list;overwrite\:\=true;uninstall\:\=true;path\:\=/apps/sling-contact-list,SLING-INF/content;overwrite\:\=true;uninstall\:\=true;path\:\=/content,SLING-INF/etc/sling-contact-list;overwrite\:\=true;uninstall\:\=true;path\:\=/etc/sling-contact-list
+env.TEMP=C\:\\Users\\MEA~1.SOF\\AppData\\Local\\Temp
+project.artifactId=serviceClient
+user.country=US
+pom.modelEncoding=UTF-8
+maven.home=C\:\\Program Files\\apache-maven-3.5.2\\bin\\..
+-sourcepath=C\:\\Users\\mea.SOFTWERKE\\IdeaProjects\\slingProject\\serviceClient\\src\\main\\java
+pom.groupId=ru.macsyom
+java.vendor=Oracle Corporation
+env.CLASSWORLDS_JAR="C\:\\Program Files\\apache-maven-3.5.2\\bin\\..\\boot\\plexus-classworlds-2.5.2.jar"
+Bundle-Name=Client for printing
+java.specification.version=1.8
+sun.arch.data.model=64
+#-----------------------------------------------------------------------
+
+[DEBUG] BND Classpath:
+#-----------------------------------------------------------------------
+-classpath:\
+ C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\classes,\
+ C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\sling\org.apache.sling.api\2.2.4\org.apache.sling.api-2.2.4.jar,\
+ C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\felix\org.apache.felix.scr.annotations\1.9.12\org.apache.felix.scr.annotations-1.9.12.jar,\
+ C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\felix\org.osgi.core\1.4.0\org.osgi.core-1.4.0.jar,\
+ C:\Users\mea.SOFTWERKE\.m2\repository\javax\jcr\jcr\2.0\jcr-2.0.jar,\
+ C:\Users\mea.SOFTWERKE\.m2\repository\ru\macsyom\servicePrinter\1.0-SNAPSHOT\servicePrinter-1.0-SNAPSHOT.jar,\
+ C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\jackrabbit\jackrabbit-core\2.4.3\jackrabbit-core-2.4.3.jar,\
+ C:\Users\mea.SOFTWERKE\.m2\repository\concurrent\concurrent\1.3.4\concurrent-1.3.4.jar,\
+ C:\Users\mea.SOFTWERKE\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar,\
+ C:\Users\mea.SOFTWERKE\.m2\repository\commons-io\commons-io\1.4\commons-io-1.4.jar,\
+ C:\Users\mea.SOFTWERKE\.m2\repository\commons-dbcp\commons-dbcp\1.3\commons-dbcp-1.3.jar,\
+ C:\Users\mea.SOFTWERKE\.m2\repository\commons-pool\commons-pool\1.5.4\commons-pool-1.5.4.jar,\
+ C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\jackrabbit\jackrabbit-api\2.4.3\jackrabbit-api-2.4.3.jar,\
+ C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\jackrabbit\jackrabbit-spi-commons\2.4.3\jackrabbit-spi-commons-2.4.3.jar,\
+ C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\jackrabbit\jackrabbit-spi\2.4.3\jackrabbit-spi-2.4.3.jar,\
+ C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\tika\tika-core\1.0\tika-core-1.0.jar,\
+ C:\Users\mea.SOFTWERKE\.m2\repository\org\slf4j\slf4j-api\1.6.4\slf4j-api-1.6.4.jar,\
+ C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\lucene\lucene-core\3.0.3\lucene-core-3.0.3.jar,\
+ C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\derby\derby\10.5.3.0_1\derby-10.5.3.0_1.jar,\
+ C:\Users\mea.SOFTWERKE\.m2\repository\org\slf4j\jcl-over-slf4j\1.6.4\jcl-over-slf4j-1.6.4.jar,\
+ C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\jackrabbit\jackrabbit-jcr-commons\2.4.3\jackrabbit-jcr-commons-2.4.3.jar
+#-----------------------------------------------------------------------
+
+[DEBUG] build
+[DEBUG] copy d=Jar:dot s=Jar:. p=osgi/java/client
+[DEBUG] parseClassFile(): path=osgi/java/client/Client.class resource=C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\classes\osgi\java\client\Client.class
+[DEBUG] parseClassFile(): path=osgi/java/client/ClientActivator.class resource=C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\classes\osgi\java\client\ClientActivator.class
+[DEBUG] activator osgi.java.client.ClientActivator osgi.java.client.ClientActivator
+[DEBUG] Trying pre-plugin org.apache.felix.bundleplugin.BlueprintPlugin
+[DEBUG] Trying pre-plugin aQute.lib.spring.SpringXMLType
+[DEBUG] Trying pre-plugin org.apache.felix.bundleplugin.JpaPlugin
+[DEBUG] begin aQute.bnd.make.component.ServiceComponent@76e9f00b
+[DEBUG] end
+[DEBUG] begin DSAnnotations
+[DEBUG] parseClassFile(): path=osgi/java/client/Client.class resource=C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\classes\osgi\java\client\Client.class
+[DEBUG] parseClassFile(): path=osgi/java/client/ClientActivator.class resource=C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\classes\osgi\java\client\ClientActivator.class
+[DEBUG] end
+[DEBUG] begin MetatypePlugin
+[DEBUG] end
+[DEBUG] begin MetatypeAnnotations
+[DEBUG] parseClassFile(): path=osgi/java/client/Client.class resource=C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\classes\osgi\java\client\Client.class
+[DEBUG] parseClassFile(): path=osgi/java/client/ClientActivator.class resource=C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\classes\osgi\java\client\ClientActivator.class
+[DEBUG] parseClassFile(): path=osgi/java/client/Client.class resource=C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\classes\osgi\java\client\Client.class
+[DEBUG] parseClassFile(): path=osgi/java/client/ClientActivator.class resource=C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\classes\osgi\java\client\ClientActivator.class
+[DEBUG] end
+[DEBUG] begin org.apache.felix.bundleplugin.BlueprintPlugin@2d760326
+[DEBUG] end
+[DEBUG] begin aQute.lib.spring.SpringXMLType@9e54c59
+[DEBUG] end
+[DEBUG] begin org.apache.felix.bundleplugin.JpaPlugin@3aaa3c39
+[DEBUG] end
+[DEBUG] parseClassFile(): path=osgi/java/client/Client.class resource=C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\classes\osgi\java\client\Client.class
+[DEBUG] parseClassFile(): path=osgi/java/client/ClientActivator.class resource=C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\classes\osgi\java\client\ClientActivator.class
+[DEBUG] parseClassFile(): path=java/lang/Runnable.class resource=:jar:file:/C:/Program%20Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/lang/Runnable.class:
+[DEBUG] parseClassFile(): path=org/osgi/framework/BundleActivator.class resource=:C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\felix\org.osgi.core\1.4.0\org.osgi.core-1.4.0.jar(org/osgi/framework/BundleActivator.class):
+[DEBUG] parseClassFile(): path=org/osgi/framework/ServiceListener.class resource=:C:\Users\mea.SOFTWERKE\.m2\repository\org\apache\felix\org.osgi.core\1.4.0\org.osgi.core-1.4.0.jar(org/osgi/framework/ServiceListener.class):
+[DEBUG] BND Manifest:
+#-----------------------------------------------------------------------
+Manifest-Version: 1.0
+Bnd-LastModified: 1521715870614
+Bundle-Activator: osgi.java.client.ClientActivator
+Bundle-ManifestVersion: 2
+Bundle-Name: Client for printing
+Bundle-SymbolicName: ru.macsyom.print.client
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: 1.8.0_161 (Oracle Corporation)
+Export-Package: osgi.java.client;uses:="osgi.service.printer";version="1
+ .0.0"
+Import-Package: osgi.service.printer;version="[1.0,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Sling-Initial-Content: SLING-INF/apps/sling-contact-list;overwrite:=true
+ ;uninstall:=true;path:=/apps/sling-contact-list,SLING-INF/content;overw
+ rite:=true;uninstall:=true;path:=/content,SLING-INF/etc/sling-contact-l
+ ist;overwrite:=true;uninstall:=true;path:=/etc/sling-contact-list
+Tool: Bnd-3.5.0.201709291849
+#-----------------------------------------------------------------------
+
+[DEBUG] Final Manifest:
+#-----------------------------------------------------------------------
+Manifest-Version: 1.0
+Bnd-LastModified: 1521715870614
+Build-Jdk: 1.8.0_161
+Built-By: mea
+Bundle-Activator: osgi.java.client.ClientActivator
+Bundle-ManifestVersion: 2
+Bundle-Name: Client for printing
+Bundle-SymbolicName: ru.macsyom.print.client
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: osgi.java.client;uses:="osgi.service.printer";version="1
+ .0.0"
+Import-Package: osgi.service.printer;version="[1.0,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Sling-Initial-Content: SLING-INF/apps/sling-contact-list;overwrite:=true
+ ;uninstall:=true;path:=/apps/sling-contact-list,SLING-INF/content;overw
+ rite:=true;uninstall:=true;path:=/content,SLING-INF/etc/sling-contact-l
+ ist;overwrite:=true;uninstall:=true;path:=/etc/sling-contact-list
+Tool: Bnd-3.5.0.201709291849
+#-----------------------------------------------------------------------
+
+[DEBUG] Write manifest to C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\classes\META-INF\MANIFEST.MF
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ serviceClient ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=69046, ConflictMarker.markTime=39656, ConflictMarker.nodeCount=40, ConflictIdSorter.graphTime=34057, ConflictIdSorter.topsortTime=27992, ConflictIdSorter.conflictIdCount=19, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=700265, ConflictResolver.conflictItemCount=40, DefaultDependencyCollector.collectTime=33791406, DefaultDependencyCollector.transformTime=900407}
+[DEBUG] org.apache.maven.plugins:maven-install-plugin:jar:2.5.2:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.11:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.2.1:compile
+[DEBUG]    org.apache.maven:maven-artifact-manager:jar:2.2.1:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.2.1:compile
+[DEBUG]       backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.2.1:compile
+[DEBUG]    commons-codec:commons-codec:jar:1.6:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:0.4:compile
+[DEBUG]       com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.15:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-install-plugin:2.5.2
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-install-plugin:2.5.2
+[DEBUG]   Imported:  < project>ru.macsyom:serviceClient:1.0-SNAPSHOT
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-install-plugin:2.5.2
+[DEBUG]   Included: org.apache.maven.plugins:maven-install-plugin:jar:2.5.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.11
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: backport-util-concurrent:backport-util-concurrent:jar:3.1
+[DEBUG]   Included: commons-codec:commons-codec:jar:1.6
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:0.4
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.15
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-install-plugin:2.5.2:install from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-install-plugin:2.5.2, parent: sun.misc.Launcher$AppClassLoader@33909752]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-install-plugin:2.5.2:install' with basic configurator -->
+[DEBUG]   (f) artifact = ru.macsyom:serviceClient:bundle:1.0-SNAPSHOT
+[DEBUG]   (f) attachedArtifacts = []
+[DEBUG]   (f) createChecksum = false
+[DEBUG]   (f) installAtEnd = false
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///C:/Users/mea.SOFTWERKE/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) packaging = bundle
+[DEBUG]   (f) pomFile = C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\pom.xml
+[DEBUG]   (f) project = MavenProject: ru.macsyom:serviceClient:1.0-SNAPSHOT @ C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\pom.xml
+[DEBUG]   (f) reactorProjects = [MavenProject: ru.macsyom:serviceClient:1.0-SNAPSHOT @ C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\pom.xml]
+[DEBUG]   (s) skip = false
+[DEBUG]   (f) updateReleaseInfo = false
+[DEBUG] -- end configuration --
+[INFO] Installing C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\target\printerClient.jar to C:\Users\mea.SOFTWERKE\.m2\repository\ru\macsyom\serviceClient\1.0-SNAPSHOT\serviceClient-1.0-SNAPSHOT.jar
+[DEBUG] Writing tracking file C:\Users\mea.SOFTWERKE\.m2\repository\ru\macsyom\serviceClient\1.0-SNAPSHOT\_remote.repositories
+[INFO] Installing C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\pom.xml to C:\Users\mea.SOFTWERKE\.m2\repository\ru\macsyom\serviceClient\1.0-SNAPSHOT\serviceClient-1.0-SNAPSHOT.pom
+[DEBUG] Writing tracking file C:\Users\mea.SOFTWERKE\.m2\repository\ru\macsyom\serviceClient\1.0-SNAPSHOT\_remote.repositories
+[DEBUG] Installing ru.macsyom:serviceClient:1.0-SNAPSHOT/maven-metadata.xml to C:\Users\mea.SOFTWERKE\.m2\repository\ru\macsyom\serviceClient\1.0-SNAPSHOT\maven-metadata-local.xml
+[DEBUG] Installing ru.macsyom:serviceClient/maven-metadata.xml to C:\Users\mea.SOFTWERKE\.m2\repository\ru\macsyom\serviceClient\maven-metadata-local.xml
+[INFO] 
+[INFO] --- maven-bundle-plugin:3.5.0:install (default-install) @ serviceClient ---
+[DEBUG] Configuring mojo org.apache.felix:maven-bundle-plugin:3.5.0:install from plugin realm ClassRealm[extension>org.apache.felix:maven-bundle-plugin:3.5.0, parent: sun.misc.Launcher$AppClassLoader@33909752]
+[DEBUG] Configuring mojo 'org.apache.felix:maven-bundle-plugin:3.5.0:install' with basic configurator -->
+[DEBUG]   (f) attachedArtifacts = []
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///C:/Users/mea.SOFTWERKE/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) project = MavenProject: ru.macsyom:serviceClient:1.0-SNAPSHOT @ C:\Users\mea.SOFTWERKE\IdeaProjects\slingProject\serviceClient\pom.xml
+[DEBUG] -- end configuration --
+[DEBUG]  (f) repositoryXml = file:/C:/Users/mea.SOFTWERKE/.m2/repository/repository.xml
+[DEBUG]  (f) bundleJar = file:/C:/Users/mea.SOFTWERKE/.m2/repository/ru/macsyom/serviceClient/1.0-SNAPSHOT/serviceClient-1.0-SNAPSHOT.jar
+[DEBUG]  (f) sourceJar = null
+[DEBUG]  (f) docJar = null
+[DEBUG]  (f) obrXml = null
+[INFO] Installing ru/macsyom/serviceClient/1.0-SNAPSHOT/serviceClient-1.0-SNAPSHOT.jar
+[INFO] Writing OBR metadata
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.239 s
+[INFO] Finished at: 2018-03-22T13:51:11+03:00
+[INFO] Final Memory: 23M/271M
+[INFO] ------------------------------------------------------------------------
